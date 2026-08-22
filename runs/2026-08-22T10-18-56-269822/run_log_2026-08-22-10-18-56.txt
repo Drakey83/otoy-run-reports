@@ -1,0 +1,39 @@
+OTOY Automation — Run Log
+================================================================
+Environment:  dev
+Started:      2026-08-22T10:18:56.269822
+Result:       25 passed, 0 failed of 25
+================================================================
+SUCCESS          FLUX 3 (First Last Frame) · 224.6s
+SUCCESS          FLUX 3 (First Last Frame) [Draft] · 66.7s
+SUCCESS          FLUX 3 (Keyframes) · 248.6s
+SUCCESS          FLUX 3 (Keyframes) [Draft] · 112.2s
+SUCCESS          FLUX 3 [Draft] [I2V] · 127.8s
+SUCCESS          FLUX 3 [I2V] · 224.5s
+SUCCESS          Gemini Omni Flash (Reference) · 41.7s
+SUCCESS          Gemini Omni Flash [I2V] · 46.4s
+SUCCESS          Hunyuan I2V · 689.6s
+SUCCESS          Kling Video o3 [4k] Reference · 280.2s
+SUCCESS          Kling Video v3 [Pro] Turbo [I2V] · 170.0s
+SUCCESS          Kling Video v3 [Standard] Turbo [I2V] · 46.4s
+SUCCESS          LTX 2.3 : 22B (LoRA) [I2V] · 52.0s
+SUCCESS          LTX 2.3 : 22B [Distilled] [I2V] · 57.8s
+SUCCESS          LTX 2.3 : 22B [Distilled] LoRA [I2V] · 108.9s
+SUCCESS          LTX 2.3 : 22B [I2V] · 93.5s
+SUCCESS          LTX v2.3 - [Quality] Ingredient · 177.1s
+SUCCESS          Luma Agent - Ray v3.2 [I2V] · 57.3s
+SUCCESS          Minimax H3 (Reference) · 792.0s
+SUCCESS          Minimax H3 [I2V] · 187.4s
+SUCCESS          Pixverse v5 (Effects) · 47.1s
+SUCCESS          Sync-Lipsync v3 · 437.5s
+SUCCESS          Veo 3.1 (Fast : Reference) · 36.9s
+SUCCESS          XAI - Grok Imagine v1.5 · 36.9s
+SUCCESS          XAI - Grok Imagine v1.5 (Reference) · 36.9s
+
+WHAT THE SITE SAID
+------------------
+Every distinct message from the site this run, including on models the app got past.
+
+LTX 2.3 : 22B (LoRA) [I2V], LTX 2.3 : 22B [Distilled] LoRA [I2V] — recovered on retry
+      We're currently experiencing a brief technical issue. Please try again in a few
+      moments. We apologize for any inconvenience.
