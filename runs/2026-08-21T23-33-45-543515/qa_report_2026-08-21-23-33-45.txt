@@ -1,0 +1,37 @@
+==============================================================================
+OTOY AUTOMATION — WHAT FAILED
+==============================================================================
+Environment:  dev
+Run started:  2026-08-21T23:33:45.543515
+Models tried: 25      Failed: 0
+  the app's: 0      the website's: 0      an account limit: 0      nothing decided: 0
+
+==============================================================================
+THE APP'S FAULT — 0
+==============================================================================
+Nothing to send. This is the list to hand back to whoever maintains the app.
+
+  (none)
+
+==============================================================================
+THE WEBSITE'S FAULT — 0
+==============================================================================
+Written up one at a time below, with the reasoning for each.
+
+  (none)
+
+==============================================================================
+THE WEBSITE'S BUGS, WRITTEN UP
+==============================================================================
+Nothing in this run read as the website's problem.
+
+==============================================================================
+WHAT CLAUDE MADE OF IT — a suggestion, not a verdict
+==============================================================================
+Claude was not asked: every failure above is already accounted for by the
+app's own rules, so there was nothing left to weigh up.
+Everything above still stands — it is all produced by the app's own rules.
+
+==============================================================================
+Everything above the Claude section is written by the app from this run's
+own records — every line traces to something the run or the site reported.
