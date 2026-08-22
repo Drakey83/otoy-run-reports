@@ -1,0 +1,52 @@
+OTOY Automation — Run Log
+================================================================
+Environment:  dev
+Started:      2026-08-21T23:33:45.543515
+Result:       25 passed, 0 failed of 25
+================================================================
+SUCCESS          FLUX 3 (First Last Frame) · 219.9s
+SUCCESS          FLUX 3 (First Last Frame) [Draft] · 88.2s
+SUCCESS          FLUX 3 (Keyframes) · 96.1s
+SUCCESS          FLUX 3 (Keyframes) [Draft] · 111.2s
+SUCCESS          FLUX 3 [Draft] [I2V] · 76.9s
+SUCCESS          FLUX 3 [I2V] · 233.2s
+SUCCESS          Gemini Omni Flash (Reference) · 51.5s
+SUCCESS          Gemini Omni Flash [I2V] · 56.4s
+SUCCESS          Hunyuan I2V · 620.0s
+SUCCESS          Kling Video o3 [4k] Reference · 223.3s
+SUCCESS          Kling Video v3 [Pro] Turbo [I2V] · 173.1s
+SUCCESS          Kling Video v3 [Standard] Turbo [I2V] · 56.4s
+SUCCESS          LTX 2.3 : 22B (LoRA) [I2V] · 350.6s
+SUCCESS          LTX 2.3 : 22B [Distilled] [I2V] · 26.5s
+SUCCESS          LTX 2.3 : 22B [Distilled] LoRA [I2V] · 167.9s
+SUCCESS          LTX 2.3 : 22B [I2V] · 655.8s
+SUCCESS          LTX v2.3 - [Quality] Ingredient · 107.0s
+SUCCESS          Luma Agent - Ray v3.2 [I2V] · 56.6s
+SUCCESS          Minimax H3 (Reference) · 750.4s
+SUCCESS          Minimax H3 [I2V] · 208.2s
+SUCCESS          Pixverse v5 (Effects) · 46.6s
+SUCCESS          Sync-Lipsync v3 · 416.4s
+SUCCESS          Veo 3.1 (Fast : Reference) · 102.1s
+SUCCESS          XAI - Grok Imagine v1.5 · 46.5s
+SUCCESS          XAI - Grok Imagine v1.5 (Reference) · 41.9s
+
+WHAT THE SITE SAID
+------------------
+Every distinct message from the site this run, including on models the app got past.
+
+FLUX 3 (First Last Frame), FLUX 3 (First Last Frame) [Draft] — recovered on retry
+      The file you uploaded isn't in a supported format. Please ensure it's a valid text
+      document, image, or other compatible file type.
+LTX 2.3 : 22B [I2V] — recovered on retry
+      No matching job ever appeared in the account queue — the job likely never actually
+      started
+LTX 2.3 : 22B [Distilled] [I2V] — recovered on retry
+      We're currently experiencing a brief technical issue. Please try again in a few
+      moments. We apologize for any inconvenience.
+Pixverse v5 (Effects) — recovered on retry
+      Your video is too long for 1080p. Please shorten it to 8 seconds or less, or
+      select a lower resolution.
+
+SLOWER THAN IT USED TO BE
+-------------------------
+LTX 2.3 : 22B [I2V]                        154s -> 656s (4.3 x its usual)
