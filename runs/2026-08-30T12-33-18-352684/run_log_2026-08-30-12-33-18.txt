@@ -1,0 +1,878 @@
+OTOY Automation — Run Log
+================================================================
+Environment:  dev
+Started:      2026-08-30T12:33:18.352684
+Result:       93 passed, 71 failed of 165
+================================================================
+
+THE RUN, IN PLAIN ENGLISH
+-------------------------
+Quick QA update from dev: 93 of 165 models passed. 18 of the failures look like they're
+on the website's side, including Mirage - Avatar X, Mirage - Avatar X (Reference), and
+LTX 2 (Fast). Another 49 were the app's own doing, such as Bria - Fibo Gen v1.5, Recraft
+v4 (Style), and Recraft v4 (Vector : Style). That leaves 4 that still need someone to
+take a look. On the rollable landings, the split came out to 70% platform / 29% local,
+where the rule is 75/25.
+FAILED           AI Avatar (multi-text) · 489.6s
+                 Your video is too long. Please shorten it to 241 frames or less and try
+                 again.
+FAILED           Argil - Avatars · 1845.0s
+                 We're sorry, your request timed out. This can happen with complex
+                 queries. Please try simplifying your request or breaking it into
+                 smaller parts.
+FAILED           Auto caption · 10.3s
+                 We couldn't use the font you selected. Please check that the font file
+                 exists at the specified path and that your system has permission to
+                 access it.
+FAILED           Beatoven Music · 930.6s
+                 We're having trouble processing your request right now. This can happen
+                 with complex or lengthy requests. Please try again with a simpler or
+                 shorter input.
+FAILED           Beatoven SFX · 945.1s
+                 We're having trouble processing your request right now. This can happen
+                 with complex or lengthy requests. Please try again with a simpler or
+                 shorter input.
+FAILED           Bria - Eraser (Keypoints) · 5.5s
+                 The provided keypoints are invalid. Please check that they are
+                 correctly formatted as JSON.
+FAILED           Bria - Eraser (Mask) · 5.3s
+                 The data you provided has inconsistent dimensions. Please ensure all
+                 input data has matching sizes or shapes.
+FAILED           Bria - Eraser (Text) · 10.5s
+                 We couldn't understand your request. Please try again with a more
+                 detailed or clearer description of what you're looking for.
+FAILED           Bria - Fibo (Edit) · 6.4s
+                 We're experiencing a temporary technical issue. Please try again in a
+                 few moments. We apologize for the inconvenience.
+FAILED           Bria - Fibo BBQ (Preview) · 5.3s
+                 We're experiencing a temporary technical issue. Please try again in a
+                 few moments. We apologize for the inconvenience.
+FAILED           Bria - Fibo Edit v1.5 · 6.3s
+                 There was an error during file processing: There was an error during
+                 file processing: body: Value error, A reference image is required: pass
+                 image_url, or image_urls with 1-4 images.
+FAILED           Bria - Fibo Gen v1.5 · 5.6s
+                 The color scheme you entered isn't valid. Please choose from the
+                 available options, like "warm", "cool", or "monochromatic".
+FAILED           Bria - Product Dimensions
+                 No matching job ever appeared in the account queue — the job likely
+                 never actually started
+FAILED           Bria Video (Erase : Keypoints) · 6.5s
+                 The keypoints you provided are not correctly formatted. Please ensure
+                 your input is a valid JSON string, like this: `[{"point": "example"}]`.
+FAILED           Bria Video (Erase : Mask) · 5.3s
+                 The data you provided has inconsistent dimensions. Please ensure all
+                 input data has matching sizes or shapes.
+FAILED           Bria Video (Erase) · 6.5s
+                 Your video exceeds the maximum allowed length. Please shorten it to 6
+                 seconds or less to proceed.
+FAILED           Bytedance - Seed Audio v1.0 · 10.4s
+                 We can't process requests that combine images and audio. Please submit
+                 them as separate requests to continue.
+FAILED           Clarity Ai - Crystal Upscaler · 933.5s
+                 We're having trouble processing your request right now. This can happen
+                 with complex or lengthy requests. Please try again with a simpler or
+                 shorter input.
+FAILED           Clarity Ai - Crystal Upscaler [V2V] · 5.4s
+                 The video's resolution is too high. Please try a lower resolution, as
+                 the maximum supported resolution is 5K (5120x2880 pixels).
+FAILED           Decart - Lucy 2.5 (Realtime) · 19.7s
+                 Could not click Create button — every required field is filled and the
+                 site gave no reason on the page · the form held — Camera:EMPTY; Enable
+                 Prompt Expansion:EMPTY; Reference Image File:EMPTY; Prompt:set
+FAILED           Decart - Lucy2 VTON (Realtime) · 5.3s
+                 The page or resource you're looking for couldn't be found. Please
+                 double-check the address and try again.
+FAILED           F5 TTS (Speech) · 51.4s
+                 The voice you selected is no longer available. Please choose a
+                 different voice from the list to continue.
+FAILED           FLUX 3 (Draft Enhance) · 5.4s
+                 We couldn't access the file from the provided URL. Please double-check
+                 the link for typos and ensure it's publicly accessible without
+                 requiring a login or special permissions, then try again.
+FAILED           FLUX 3 (First Last Frame) [Draft] · 33.2s
+                 Could not click Create button — every required field is filled and the
+                 site gave no reason on the page · the form held — End Image File:EMPTY;
+                 Start Image File:EMPTY; Generate Audio:set; Prompt:set; Safety
+                 Tolerance:set
+FAILED           FLUX.2 [klein] Realtime · 8.3s
+                 The page or resource you're looking for couldn't be found. Please
+                 double-check the address and try again.
+FAILED           Half Moon AI (Edit) · 20.5s
+                 Could not click Create button — every required field is filled and the
+                 site gave no reason on the page · the form held — Input Image
+                 File:EMPTY; Additional Elements:set; Custom Prompt:set; Prompt:set
+FAILED           Half Moon AI (Face Swap : Multi) · 0.8s
+                 We couldn't find what you were looking for. Please check the
+                 information you entered and try again.
+FAILED           Half Moon AI (Face Swap : Multi) [V2V] · 1.0s
+                 We couldn't find what you were looking for. Please check the
+                 information you entered and try again.
+FAILED           Half Moon AI (Style) · 0.1s
+                 We couldn't find what you were looking for. Please check the
+                 information you entered and try again.
+FAILED           Hi3D · 15.5s
+                 To ensure your request is processed correctly, please select a valid
+                 image size: 512, 1024, 1536, 1536pro, 1536fast, or 1536profast.
+FAILED           Hi3D (Multi-view) · 16.2s
+                 The resolution you provided isn't supported. Please use a supported
+                 resolution like 1536.
+FAILED           Ideogram v2 (Turbo : Edit) · 6.6s
+                 To proceed, please ensure your image and mask are the same size, such
+                 as 1024x1024 pixels.
+FAILED           Ideogram v3 (Layerize Text) · 5.3s
+                 You can either upload a custom font file or select a font from our list
+                 for your H1 heading, but not both. Please choose only one option.
+FAILED           Lightx Relight · 5.4s
+                 The reference ID you provided is too long. Please shorten it to 48
+                 characters or less.
+FAILED           LTX 2 (Fast) · 5.2s
+                 We're experiencing a temporary technical issue. Please try again in a
+                 few moments. We apologize for the inconvenience.
+FAILED           LTX 2 (Fast) [I2V] · 5.4s
+                 We're experiencing a temporary technical issue. Please try again in a
+                 few moments. We apologize for the inconvenience.
+FAILED           LTX 2 Retake · 5.4s
+                 We couldn't access the file from the URL you provided. Please
+                 double-check the link and try again. · we gave it
+                 https://otoy-ai-rndrstaging-us-east-1.s3.amazonaws.com/8e8fed5a-e207-4f
+                 47-add9-bc91c2d4e647/c0e3 (video), which it could not fetch · we gave
+                 it
+                 https://v3b.fal.media/files/b/0a8d03c4/zy-MD131DqeVEi8VRMUmD_out_9sec.m
+                 p4 (video), which it could not fetch
+FAILED           LTX v2 · 5.4s
+                 We're experiencing a temporary technical issue. Please try again in a
+                 few moments. We apologize for the inconvenience.
+FAILED           LTX v2 (Fast) · 5.2s
+                 We're experiencing a temporary technical issue. Please try again in a
+                 few moments. We apologize for the inconvenience.
+FAILED           LTX v2 : 19B (Extend Video : LoRA) · 15.4s
+                 Some required information is missing. Please ensure all necessary
+                 fields are filled in. · we could not work out which control the site
+                 wanted turned on, from the message or from this form's own controls
+FAILED           LTX v2 [I2V] · 6.5s
+                 We're experiencing a temporary technical issue. Please try again in a
+                 few moments. We apologize for the inconvenience.
+FAILED           Minimax Voice Design · 5.4s
+                 We're experiencing a temporary technical issue. Please try again in a
+                 few moments. We apologize for the inconvenience.
+FAILED           Mirage - Avatar X · 5.5s
+                 We're having trouble processing your request. Please check that you're
+                 only entering information in the designated fields, without any extra
+                 text or symbols.
+FAILED           Mirage - Avatar X (Reference) · 1.8s
+                 We're having trouble processing your request. Please check that you're
+                 only entering information in the designated fields, without any extra
+                 text or symbols.
+FAILED           Mirelo Ai - SFX v1.6 (Inpaint Audio) · 30.4s
+                 Server rejected generation: Invalid form configurationValidation failed
+                 for field "AudioSegmentSpec"
+FAILED           Omni Zero · 72.5s
+                 We're experiencing a temporary technical issue. Please try again in a
+                 few moments. We apologize for the inconvenience.
+FAILED           OmniPart · 8.2s
+                 Server rejected generation: Failed to generateWe couldn't detect any
+                 recognizable content. Try a different prompt, provide an image mask, or
+                 adjust the detection threshold.
+FAILED           Otoy Studio Ltx 2 Extend Video
+                 No matching job ever appeared in the account queue — the job likely
+                 never actually started
+FAILED           Pika v2 (Turbo) · 5.5s
+                 We're experiencing a temporary technical issue. Please try again in a
+                 few moments. We apologize for the inconvenience.
+FAILED           Pika v2 (Turbo) [I2V] · 5.6s
+                 We're experiencing a temporary technical issue. Please try again in a
+                 few moments. We apologize for the inconvenience.
+FAILED           Pika v2.1 · 5.5s
+                 We're experiencing a temporary technical issue. Please try again in a
+                 few moments. We apologize for the inconvenience.
+FAILED           Pika v2.1 [I2V] · 21.3s
+                 We're experiencing a temporary technical issue. Please try again in a
+                 few moments. We apologize for the inconvenience.
+FAILED           Qwen 3 TTS : 0.6B (Speech)
+                 No matching job ever appeared in the account queue — the job likely
+                 never actually started
+FAILED           Qwen 3 TTS : 1.7B (Speech) · 5.4s
+                 We couldn't load your speaker's voice. Please check that the file is
+                 not corrupted and is in a supported audio format like WAV or MP3.
+FAILED           Recraft v4 (Style) · 5.6s
+                 The style ID you entered is incorrect. Please check that it is a valid
+                 32-character identifier.
+FAILED           Recraft v4 (Vector : Style) · 3.4s
+                 The style ID you entered is incorrect. Please check that it is a valid
+                 32-character identifier.
+FAILED           Recraft v4 [Pro] (Style) · 0.3s
+                 The style ID you entered is incorrect. Please check that it is a valid
+                 32-character identifier.
+FAILED           Recraft v4 [Pro] Vector (Style) · 5.4s
+                 The style ID you entered is incorrect. Please check that it is a valid
+                 32-character identifier.
+FAILED           Rife · 6.5s
+                 To process your request, the first and last images must have identical
+                 dimensions. Please ensure both images are the same size.
+FAILED           Runway Gen-4 - Aleph · 0.2s
+                 We couldn't process your video. Please ensure the link is correct and
+                 the video is publicly accessible, in a supported format like MP4, and
+                 under the maximum size limit.
+FAILED           SAM 2 (Seg) · 6.0s
+                 To segment the video, please provide at least one prompt or bounding
+                 box prompt.
+FAILED           Sam 3 (3d Objects) · 5.3s
+                 We couldn't detect any recognizable content. Try a different prompt,
+                 provide an image mask, or adjust the detection threshold.
+FAILED           SAM 3 [V2V] · 54.7s
+                 Create stayed disabled — this model requires Image Url (image) and
+                 nothing of ours ever went into it (a leftover preview from the previous
+                 model can look filled while the site sees it as empty)
+FAILED           Sync Lipsync v2 · 15.6s
+                 The sync mode you selected isn't valid. Please choose from 'cut_off',
+                 'loop', 'bounce', 'silence', or 'remap' to fix this.
+FAILED           Sync Lipsync v3 · 7.8s
+                 Server rejected generation: Failed to generateThe sync mode you
+                 selected isn't valid. Please choose from 'cut_off', 'loop', 'bounce',
+                 'silence', or 'remap' to fix this.
+FAILED           Topaz (Colorize) · 21.9s
+                 Create stayed disabled — the site says: Invalid content type:
+                 application/octet-stream. Expected: video/
+FAILED           Trellis v2 (LoRA) · 10.4s
+                 Please provide at least one Trellis.2 LoRA checkpoint URL. This is
+                 required for creating sparse structures, geometries, or textures. · we
+                 could not tell which control the site meant - it mentions useurl, and
+                 none of them is on while another is off
+FAILED           Veed - Subtitles
+                 No matching job ever appeared in the account queue — the job likely
+                 never actually started
+FAILED           Wan v2.7 [I2V] · 5.4s
+                 There was an error during file processing: There was an error during
+                 file processing: Value error, Input must be a valid HTTPS URL or a Data
+                 URI, Value error, Input must be a valid HTTPS URL or a Data URI
+FAILED           Workflow Utilities (Auto-subtitle) · 26.0s
+                 We couldn't process your video. Please ensure it's in .mp4 or .mov
+                 format.
+FAILED           Workflow Utilities (Blend Video) · 11.5s
+                 Server rejected generation: Failed to generateYour end time must be
+                 after your start time. Please adjust the times so the end time occurs
+                 later than the start time.
+SUCCESS          Bria (Re-imagine) · 36.5s
+SUCCESS          Bria - Background Removal (Green-screen Despill) · 41.3s
+SUCCESS          Bytedance - Lynx · 778.0s
+SUCCESS          Bytedance - OmniHuman v1.5 · 490.1s
+SUCCESS          Bytedance - Seedance v2.5 · 178.0s
+SUCCESS          Bytedance - Seedance v2.5 (Reference) · 792.1s
+SUCCESS          Bytedance - Seedance v2.5 [I2V] · 385.5s
+SUCCESS          Bytedance - Seedream v5 Pro (Layerize) · 71.2s
+SUCCESS          Chatterbox (Multilingual) · 10.4s
+SUCCESS          Chrono (Edit) · 141.6s
+SUCCESS          Chrono Edit (LoRA : Upscaler) · 197.9s
+SUCCESS          Decart - Lucy Edit (Pro) · 131.4s
+SUCCESS          Deep Filter Net 3 · 5.2s
+SUCCESS          ESRGAN (Upscale) · 41.5s
+SUCCESS          Fashn Tryon v1.5 · 30.6s
+SUCCESS          FlashVSR (Upscale) · 182.0s
+SUCCESS          FLUX (Video Upscale) · 126.6s
+SUCCESS          FLUX - PuLID (Identity) · 21.4s
+SUCCESS          FLUX 3 (Extend Video) [Draft] · 136.5s
+SUCCESS          FLUX 3 (Keyframes) [Draft] · 152.5s
+SUCCESS          FLUX 3 [Draft] [I2V] · 133.0s
+SUCCESS          Gemini Omni Flash v1.1 · 65.8s
+SUCCESS          Gemini Omni Flash v1.1 (Edit) · 96.2s
+SUCCESS          Gemini Omni Flash v1.1 (Reference) · 217.3s
+SUCCESS          Gemini Omni Flash v1.1 [I2V] · 101.9s
+SUCCESS          Google (Virtual Try-on) · 41.4s
+SUCCESS          Heygen v3 (Lipsync : Precision) · 147.6s
+SUCCESS          Hi3D (Relief) · 146.7s
+SUCCESS          Hi3D v3.0 · 444.8s
+SUCCESS          Hi3D v3.0 (Multi-view) · 1844.2s
+SUCCESS          Image Apps v2 (Photo Restoration) · 26.6s
+SUCCESS          Kling Video v1 [Standard] Effects · 203.9s
+SUCCESS          Lightx Recamera · 330.9s
+SUCCESS          LTX 2.3 [Quality] Extend Video · 123.8s
+SUCCESS          LTX 2.3 [Quality] Extend Video (LoRA) · 91.2s
+SUCCESS          LTX 2.5 [Fast] · 30.5s
+SUCCESS          LTX 2.5 [Fast] [I2V] · 36.5s
+SUCCESS          LTX 2.5 [Pro] · 76.5s
+SUCCESS          LTX 2.5 [Pro] [I2V] · 51.9s
+SUCCESS          LTX v2.3 - [Quality] Outpaint · 96.4s
+SUCCESS          LTX v2.3 [I2V] · 103.2s
+SUCCESS          Luma Agent - Ray v3.2 [V2V] · 336.7s
+SUCCESS          Luma Dream Machine - Ray 2 · 541.5s
+SUCCESS          Luma Dream Machine - Ray 2 (Reframe : Flash) · 66.0s
+SUCCESS          Meshy v6 (Multi Image) · 309.6s
+SUCCESS          Meshy v7 · 112.6s
+SUCCESS          Meshy v7 (Multi Image) · 294.8s
+SUCCESS          Minimax H3 (LoRA) · 127.5s
+SUCCESS          Minimax H3 (LoRA) [I2V] · 144.3s
+SUCCESS          Minimax H3 (Reference : LoRA) · 495.3s
+SUCCESS          Minimax H3 [Max] · 5.3s
+SUCCESS          Minimax H3 [Max] [I2V] · 10.6s
+SUCCESS          Minimax Music · 20.4s
+SUCCESS          Minimax Music v3 · 97.1s
+SUCCESS          Minimax Video-01 (Director) · 213.5s
+SUCCESS          Ovis Image · 263.5s
+SUCCESS          Pixverse c1 (Reference to Video) · 56.9s
+SUCCESS          Pixverse v5 (Effects) · 158.7s
+SUCCESS          RealESRGAN (Upscale) · 418.1s
+SUCCESS          Rife [V2V] · 15.8s
+SUCCESS          SDXL & SD (Inpaint) · 213.8s
+SUCCESS          Sensenova u1 - Infographic · 202.7s
+SUCCESS          Smart Resize · 87.1s
+SUCCESS          Sora v2 · 146.7s
+SUCCESS          Sora v2 (Characters) · 20.5s
+SUCCESS          Sora v2 [Pro] [I2V] · 237.7s
+SUCCESS          Sync Lipsync - React 1 · 262.8s
+SUCCESS          Topaz (Adjust) · 36.1s
+SUCCESS          Topaz (Deblur) · 31.0s
+SUCCESS          Topaz (Denoise) · 15.4s
+SUCCESS          Topaz (Denoise) [V2V] · 96.5s
+SUCCESS          Topaz (Interpolate) · 596.9s
+SUCCESS          Topaz (Restore) · 60.7s
+SUCCESS          Topaz (SDR to HDR) · 379.3s
+SUCCESS          Topaz (Sharpen) · 16.2s
+SUCCESS          Topaz (Upscale : Creative) · 96.4s
+SUCCESS          Topaz (Upscale : Creative) [V2V] · 536.6s
+SUCCESS          Topaz (Upscale : Generative) · 15.3s
+SUCCESS          Topaz (Upscale : Generative) [V2V] · 373.9s
+SUCCESS          Topaz (Upscale : Precision) · 15.4s
+SUCCESS          Topaz (Upscale : Precision) [V2V] · 25.4s
+SUCCESS          Topaz (Upscale : Transparent) · 101.1s
+SUCCESS          Vidu Q2 Pro (Reference) · 198.2s
+SUCCESS          Wan v3.0 · 192.5s
+SUCCESS          Wan v3.0 (Reference) · 167.6s
+SUCCESS          Wan v3.0 [I2V] · 149.2s
+SUCCESS          Wan v3.0 [Prime] · 55.7s
+SUCCESS          Wan v3.0 [Prime] (Reference) · 71.7s
+SUCCESS          Wan v3.0 [Prime] [I2V] · 77.2s
+SUCCESS          Wan Vace Apps (Long Reframe) · 193.6s
+SUCCESS          Workflow Utilities (Trim Video) · 5.4s
+SUCCESS          XAI - Grok Imagine v2.0 · 56.3s
+SUCCESS          XAI - Grok Imagine v2.0 (Edit) · 35.8s
+WAITING          Minimax - Speech v2.5 [Turbo] Preview
+                 Attempt 1 failed — will retry later: Server rejected generation:
+                 Invalid form configurationValidation error: must NOT
+
+WHAT THE SITE SAID
+------------------
+Every distinct message from the site this run, including on models the app got past.
+
+Bria - Fibo (Edit), Bria - Fibo BBQ (Preview), Heygen v3 (Lipsync : Precision), LTX 2 (Fast), LTX 2 (Fast) [I2V], LTX 2 Retake, LTX v2, LTX v2 (Fast), LTX v2 [I2V], Minimax Voice Design, Omni Zero, OmniPart, Pika v2 (Turbo), Pika v2 (Turbo) [I2V], Pika v2.1, Pika v2.1 [I2V] — 15 still failing, 1 recovered
+      We're experiencing a temporary technical issue. Please try again in a few moments.
+      We apologize for the inconvenience. · transient site error 1/6 (no attempt
+      consumed) — will retry
+Bria - Fibo (Edit), Bria - Fibo BBQ (Preview), LTX 2 (Fast), LTX 2 (Fast) [I2V], LTX v2, LTX v2 (Fast), LTX v2 [I2V], Minimax Voice Design, Omni Zero, Pika v2 (Turbo), Pika v2 (Turbo) [I2V], Pika v2.1, Pika v2.1 [I2V] — still failing
+      We're experiencing a temporary technical issue. Please try again in a few moments.
+      We apologize for the inconvenience.
+Bria - Product Dimensions, Half Moon AI (Face Swap : Multi), LTX v2 : 19B (Extend Video : LoRA), Otoy Studio Ltx 2 Extend Video, Qwen 3 TTS : 0.6B (Speech), Qwen 3 TTS : 1.7B (Speech), Veed - Subtitles — still failing
+      No matching job ever appeared in the account queue — the job likely never actually
+      started
+Recraft v4 (Style), Recraft v4 (Vector : Style), Recraft v4 [Pro] (Style), Recraft v4 [Pro] Vector (Style) — still failing
+      The style ID you entered is incorrect. Please check that it is a valid
+      32-character identifier. · attempt 1/3 — will retry
+Recraft v4 (Style), Recraft v4 (Vector : Style), Recraft v4 [Pro] (Style), Recraft v4 [Pro] Vector (Style) — still failing
+      The style ID you entered is incorrect. Please check that it is a valid
+      32-character identifier. · attempt 2/3 — will retry
+Recraft v4 (Style), Recraft v4 (Vector : Style), Recraft v4 [Pro] (Style), Recraft v4 [Pro] Vector (Style) — still failing
+      The style ID you entered is incorrect. Please check that it is a valid
+      32-character identifier.
+Decart - Lucy 2.5 (Realtime), FLUX 3 (First Last Frame) [Draft], Half Moon AI (Edit), RealESRGAN (Upscale) — 3 still failing, 1 recovered
+      Could not click Create button — every required field is filled and the site gave
+      no reason on the page · the form held — Camera:EMPTY; Enable Prompt E
+Decart - Lucy 2.5 (Realtime), Decart - Lucy2 VTON (Realtime), FLUX.2 [klein] Realtime — still failing
+      The page or resource you're looking for couldn't be found. Please double-check the
+      address and try again. · attempt 1/3 — will retry
+Decart - Lucy 2.5 (Realtime), Decart - Lucy2 VTON (Realtime), FLUX.2 [klein] Realtime — still failing
+      The page or resource you're looking for couldn't be found. Please double-check the
+      address and try again. · attempt 2/3 — will retry
+Beatoven Music, Beatoven SFX, Clarity Ai - Crystal Upscaler — still failing
+      We're having trouble processing your request right now. This can happen with
+      complex or lengthy requests. Please try again with a simpler or shorter input.
+Half Moon AI (Edit), Half Moon AI (Face Swap : Multi) [V2V], Half Moon AI (Style) — still failing
+      We couldn't find what you were looking for. Please check the information you
+      entered and try again. · attempt 1/3 — will retry
+Half Moon AI (Edit), Half Moon AI (Face Swap : Multi) [V2V], Half Moon AI (Style) — still failing
+      We couldn't find what you were looking for. Please check the information you
+      entered and try again. · attempt 2/3 — will retry
+Half Moon AI (Face Swap : Multi), Half Moon AI (Face Swap : Multi) [V2V], Half Moon AI (Style) — still failing
+      We couldn't find what you were looking for. Please check the information you
+      entered and try again.
+Clarity Ai - Crystal Upscaler, Topaz (Colorize), Topaz (Denoise) [V2V], Topaz (Upscale : Generative) [V2V] — 2 still failing, 2 recovered
+      We're sorry, we encountered a temporary issue. Please try submitting your request
+      again in a few moments. · transient site error 1/6 (no attempt consumed) — will
+      retry
+FLUX 3 (First Last Frame) [Draft], LTX 2 Retake, Topaz (Denoise) [V2V] — 2 still failing, 1 recovered
+      We couldn't access the file from the URL you provided. Please double-check the
+      link and try again. · attempt 1/3 — will retry
+Mirage - Avatar X, Mirage - Avatar X (Reference) — still failing
+      We're having trouble processing your request. Please check that you're only
+      entering information in the designated fields, without any extra text or symbols.
+      · transient site error 1/6 (no attempt consumed) — will retry
+Decart - Lucy2 VTON (Realtime), FLUX.2 [klein] Realtime — still failing
+      The page or resource you're looking for couldn't be found. Please double-check the
+      address and try again.
+Bria - Eraser (Text), Bria Video (Erase) — still failing
+      We couldn't understand your request. Please try again with a more detailed or
+      clearer description of what you're looking for. · attempt 2/3 — will retry
+Bria - Eraser (Mask), Bria Video (Erase : Mask) — still failing
+      The data you provided has inconsistent dimensions. Please ensure all input data
+      has matching sizes or shapes.
+Qwen 3 TTS : 0.6B (Speech), Qwen 3 TTS : 1.7B (Speech) — still failing
+      We couldn't load your speaker's voice. Please check that the file is not corrupted
+      and is in a supported audio format like WAV or MP3. · attempt 1/3 — will retry
+Sync Lipsync v2, Sync Lipsync v3 — still failing
+      The sync mode you selected isn't valid. Please choose from 'cut_off', 'loop',
+      'bounce', 'silence', or 'remap' to fix this. · attempt 1/3 — will retry
+Workflow Utilities (Auto-subtitle), Workflow Utilities (Blend Video) — still failing
+      We couldn't process your video. Please ensure it's in .mp4 or .mov format. ·
+      attempt 1/3 — will retry
+LTX 2 Retake, Topaz (Denoise) [V2V] — 1 still failing, 1 recovered
+      We couldn't access the file from the URL you provided. Please double-check the
+      link and try again.
+Bria - Fibo Gen v1.5 — still failing
+      The color scheme you entered isn't valid. Please choose from the available
+      options, like "warm", "cool", or "monochromatic". · attempt 1/3 — will retry
+Bria - Fibo Edit v1.5 — still failing
+      There was an error during file processing: There was an error during file
+      processing: body: Value error, A reference image is required: pass image_url, or
+      image_urls with 1-4 images. · attempt 1/3 — will retry
+Hi3D — still failing
+      The image resolution you selected is not supported. Please choose one of the
+      following resolutions: 512, 1024, 1536, or 1536pro. · attempt 1/3 — will retry
+Hi3D (Multi-view) — still failing
+      The resolution you provided isn't supported. Please use a supported resolution
+      like 1536. · attempt 1/3 — will retry
+Hi3D — still failing
+      To ensure your request is processed correctly, please select a valid image size:
+      512, 1024, 1536, 1536pro, 1536fast, or 1536profast. · attempt 2/3 — will retry
+Hi3D (Multi-view) — still failing
+      The resolution you selected, '1536profast', is not supported. Please choose from
+      '1536fast' or '1536pro' for image generation. · attempt 2/3 — will retry
+Hi3D (Multi-view) — still failing
+      The resolution you provided isn't supported. Please use a supported resolution
+      like 1536.
+Bria - Product Dimensions — still failing
+      The file type you submitted isn't supported. Please use a common image or video
+      format like JPG, PNG, GIF, MP4, or MOV. · attempt 1/3 — will retry
+Bytedance - Seed Audio v1.0 — still failing
+      We can't process requests that combine images and audio. Please submit them as
+      separate requests to continue. · attempt 1/3 — will retry
+FLUX 3 (Draft Enhance) — still failing
+      We couldn't access the file from the provided URL. Please double-check the link
+      for typos and ensure it's publicly accessible without requiring a login or special
+      permissions, then try again. · attempt 1/3 — will retry
+Bytedance - Seed Audio v1.0 — still failing
+      We can't process requests that combine images and audio. Please submit them as
+      separate requests to continue.
+Topaz (Colorize) — still failing
+      Invalid content type: application/octet-stream. Expected: video/
+Topaz (Colorize) — still failing
+      Create stayed disabled — the site says: Invalid content type:
+      application/octet-stream. Expected: video/
+SAM 3 [V2V] — still failing
+      We couldn't access your video from the provided link. Please check the link for
+      typos or ensure the video is publicly accessible and not behind a login. · attempt
+      1/3 — will retry
+Sam 3 (3d Objects) — still failing
+      We couldn't detect any recognizable content. Try a different prompt, provide an
+      image mask, or adjust the detection threshold. · attempt 1/3 — will retry
+OmniPart — still failing
+      Server rejected generation: Failed to generateWe couldn't detect any recognizable
+      content. Try a different prompt, provide an image mask, or adjust th
+SAM 3 [V2V] — still failing
+      Create stayed disabled — this model requires Image Url (image) and nothing of ours
+      ever went into it (a leftover preview from the previous model can l
+Trellis v2 (LoRA) — still failing
+      Please provide at least one Trellis.2 LoRA checkpoint URL. This is required for
+      creating sparse structures, geometries, or textures. · attempt 1/3 — will retry
+Auto caption — still failing
+      We couldn't use the font you selected. Please check that the font file exists at
+      the specified path and that your system has permission to access it. · attempt 1/3
+      — will retry
+Bria - Eraser (Keypoints) — still failing
+      The keypoints you provided are not in a valid JSON format. Please ensure your
+      input is correctly structured as a JSON string with proper syntax. · attempt 1/3 —
+      will retry
+Bria - Eraser (Mask) — still failing
+      The true/false values don't match the items selected. Please check that your
+      selections align with the data. · attempt 1/3 — will retry
+Bria - Eraser (Keypoints) — still failing
+      The key points you provided are not in the correct format. Please ensure they are
+      a JSON list of strings, like `["point 1", "point 2"]`. · attempt 2/3 — will retry
+Bria - Eraser (Text) — still failing
+      Your input is too long. Please shorten your text to 32 words or less to ensure it
+      can be processed. · attempt 1/3 — will retry
+Bria - Eraser (Mask) — still failing
+      We couldn't process your request. Please ensure that all provided lists or arrays
+      have the same number of items and consistent dimensions. · attempt 2/3 — will
+      retry
+Bria - Eraser (Keypoints) — still failing
+      The provided keypoints are invalid. Please check that they are correctly formatted
+      as JSON.
+AI Avatar (multi-text) — still failing
+      Your video is too long. Please shorten it to 241 frames or less and try again.
+Bria Video (Erase : Keypoints) — still failing
+      We couldn't understand the key points you provided. Please ensure your input is
+      valid JSON, like: `{"key1": "value1", "key2": "value2"}`. · attempt 1/3 — will
+      retry
+Bria Video (Erase : Mask) — still failing
+      The data you entered isn't in the expected format. Please check that all parts of
+      your input have the same number of items. · attempt 1/3 — will retry
+Bria Video (Erase : Keypoints) — still failing
+      The key points you provided are not in a valid JSON format. Please ensure they are
+      structured correctly with proper syntax like `{"key": "value"}`. · attempt 2/3 —
+      will retry
+Bria Video (Erase) — still failing
+      Your input is too long. Please shorten it to 32 words or less. · attempt 1/3 —
+      will retry
+Bria Video (Erase : Mask) — still failing
+      We couldn't process your request because the data isn't in the expected format.
+      Please check that your input's size and layout match the requirements for this
+      operation. · attempt 2/3 — will retry
+Bria Video (Erase : Keypoints) — still failing
+      The keypoints you provided are not correctly formatted. Please ensure your input
+      is a valid JSON string, like this: `[{"point": "example"}]`.
+Bria Video (Erase) — still failing
+      Your video exceeds the maximum allowed length. Please shorten it to 6 seconds or
+      less to proceed.
+Clarity Ai - Crystal Upscaler [V2V] — still failing
+      The video's resolution is too high. Please try a lower resolution, as the maximum
+      supported resolution is 5K (5120x2880 pixels). · attempt 1/3 — will retry
+F5 TTS (Speech) — still failing
+      The voice you selected is no longer available. Please choose a different voice
+      from the list to continue. · attempt 1/3 — will retry
+F5 TTS (Speech) — still failing
+      The voice you selected is no longer available. Please choose a different voice
+      from the list to continue. · attempt 2/3 — will retry
+F5 TTS (Speech) — still failing
+      The voice you selected is no longer available. Please choose a different voice
+      from the list to continue.
+Half Moon AI (Face Swap : Multi) — still failing
+      Generation failed (reported by the account job queue) · attempt 1/3 — will retry
+Half Moon AI (Style) — still failing
+      Server rejected generation: Invalid form configurationValidation failed for field
+      "Input Image Url"
+Ideogram v2 (Turbo : Edit) — still failing
+      The model version you're using is outdated. Please update to a current version to
+      proceed. · attempt 1/3 — will retry
+Ideogram v3 (Layerize Text) — still failing
+      You can either upload a custom font file or select a font from our list for your
+      H1 heading, but not both. Please choose only one option. · attempt 1/3 — will
+      retry
+Ideogram v2 (Turbo : Edit) — still failing
+      The image and mask you provided must be the same size. Please resize them to match
+      before trying again. · attempt 2/3 — will retry
+Argil - Avatars — still failing
+      We're sorry, your request timed out. This can happen with complex queries. Please
+      try simplifying your request or breaking it into smaller parts.
+Ideogram v2 (Turbo : Edit) — still failing
+      To proceed, please ensure your image and mask are the same size, such as 1024x1024
+      pixels.
+LTX 2 Retake — still failing
+      We couldn't access the file from the URL you provided. Please double-check the
+      link and try again. · attempt 2/3 — will retry
+LTX v2 : 19B (Extend Video : LoRA) — still failing
+      Some required information is missing. Please ensure all necessary fields are
+      filled in.
+Lightx Relight — still failing
+      There was an error during file processing: There was an error during file
+      processing: relight_condition_image_url is required when relight_condition_type is
+      'ref', 'hdr', or 'bg'. · attempt 1/3 — will retry
+Lightx Relight — still failing
+      The reference ID you provided is too long. Please shorten it to 48 characters or
+      less. · attempt 2/3 — will retry
+Lightx Relight — still failing
+      The reference ID you provided is too long. Please shorten it to 48 characters or
+      less.
+Mirelo Ai - SFX v1.6 (Inpaint Audio) — still failing
+      The start and end times for your segment need to be at least one second apart.
+      Please adjust the duration to be 1.0 second or more. · attempt 1/3 — will retry
+Mirelo Ai - SFX v1.6 (Inpaint Audio) — still failing
+      The start time of your segment must be earlier than its end time. Please make sure
+      the 'start_s' value is less than the 'end_s' value. · attempt 2/3 — will retry
+Mirelo Ai - SFX v1.6 (Inpaint Audio) — still failing
+      Server rejected generation: Invalid form configurationValidation failed for field
+      "AudioSegmentSpec"
+Pika v2 (Turbo) [I2V] — still failing
+      The image you uploaded is too large. Please choose an image smaller than 8MB to
+      continue. · attempt 1/3 — will retry
+Rife — still failing
+      To generate your image, please reduce the number of frames to 8 or fewer. ·
+      attempt 1/3 — will retry
+Rife — still failing
+      To generate your image, please reduce the number of frames to 8 or fewer. ·
+      attempt 2/3 — will retry
+Runway Gen-4 - Aleph — still failing
+      There was an issue processing your request. Please check your input and try again.
+      · attempt 1/3 — will retry
+SAM 2 (Seg) — still failing
+      To segment the video, please provide at least one prompt or bounding box prompt. ·
+      attempt 1/3 — will retry
+Rife — still failing
+      To process your request, the first and last images must have identical dimensions.
+      Please ensure both images are the same size.
+Runway Gen-4 - Aleph — still failing
+      We couldn't process your video. Please ensure the link is correct and the video is
+      publicly accessible, in a supported format like MP4, and under the maximum size
+      limit. · attempt 2/3 — will retry
+SAM 2 (Seg) — still failing
+      To segment the video, please provide at least one prompt or bounding box prompt. ·
+      attempt 2/3 — will retry
+SAM 2 (Seg) — still failing
+      To segment the video, please provide at least one prompt or bounding box prompt.
+Sync Lipsync v3 — still failing
+      Server rejected generation: Failed to generateThe sync mode you selected isn't
+      valid. Please choose from 'cut_off', 'loop', 'bounce', 'silence', or 'r
+Wan v2.7 [I2V] — still failing
+      There was an error during file processing: There was an error during file
+      processing: body: Value error, Cannot provide both image_url and video_url. Use
+      image_url for first-frame-to-video, or video_url for video continuation.
+Wan v2.7 [I2V] — still failing
+      There was an error during file processing: There was an error during file
+      processing: Value error, Input must be a valid HTTPS URL or a Data URI, Value
+      error, Input must be a valid HTTPS URL or a Data URI, body.video_url: Value error,
+      Input must be a valid HTTPS URL or a Data URI, body.audio_url: Value error, Input
+      must be a valid HTTPS URL or a Data URI
+Workflow Utilities (Auto-subtitle) — still failing
+      We couldn't process your video. Please ensure it's in .mp4 or .mov format. ·
+      attempt 2/3 — will retry
+Workflow Utilities (Blend Video) — still failing
+      Server rejected generation: Failed to generateYour end time must be after your
+      start time. Please adjust the times so the end time occurs later than t
+Workflow Utilities (Auto-subtitle) — still failing
+      We couldn't process your video. Please ensure it's in .mp4 or .mov format.
+LTX 2.5 [Fast], LTX 2.5 [Fast] [I2V] — recovered on retry
+      To create videos longer than 10 seconds, please choose 720p or 1080p resolution
+      and set your frame rate to 24 or 25 FPS. · attempt 1/3 — will retry
+Topaz (Upscale : Transparent) — recovered on retry
+      We couldn't process your request with the current settings. Please review your
+      input and try adjusting the model parameters like temperature or length for a
+      better result. · attempt 1/3 — will retry
+Bytedance - Seedance v2.5 (Reference) — recovered on retry
+      There's an issue with the information you provided. Please check all fields
+      carefully to ensure they are complete and correctly formatted, then try again. ·
+      attempt 1/3 — will retry
+Bria - Background Removal (Green-screen Despill) — recovered on retry
+      Please provide a valid video URL. It looks like the one you entered is either
+      missing or incorrect. · attempt 1/3 — will retry
+Topaz (SDR to HDR) — recovered on retry
+      We couldn't process your request because the input provided wasn't in a valid text
+      format. Please ensure your input is plain text. · attempt 1/3 — will retry
+Meshy v7 — recovered on retry
+      Ultra Mode isn't available with Low Poly models. Please choose a Standard model to
+      use Ultra Mode. · attempt 1/3 — will retry
+Meshy v7 (Multi Image) — recovered on retry
+      To use advanced rendering, please enable texturing for your 3D model. Set
+      'should_texture' to true. · attempt 1/3 — will retry
+Meshy v7 — recovered on retry
+      Ultra Mode isn't available with Low Poly models. Please choose a Standard model to
+      use Ultra Mode. · attempt 2/3 — will retry
+FLUX 3 (Extend Video) [Draft] — recovered on retry
+      Your input is too long. Please shorten it to 15 characters or less, or use "auto"
+      for automatic adjustment. · attempt 1/3 — will retry
+FLUX 3 (Extend Video) [Draft] — recovered on retry
+      We couldn't process your request because some information was incorrect or
+      missing. Please review your input for any typos or omissions and try again. ·
+      attempt 2/3 — will retry
+Luma Agent - Ray v3.2 [V2V] — recovered on retry
+      To use HDR, please ensure your video resolution is either 720p or 1080p. · attempt
+      1/3 — will retry
+Luma Agent - Ray v3.2 [V2V] — recovered on retry
+      You can either use automatic controls or set a custom edit strength, but not both.
+      Please choose one option. · attempt 2/3 — will retry
+LTX v2.3 - [Quality] Outpaint — recovered on retry
+      To ensure the best results, please adjust the aspect ratio of your video when
+      using outpaint. Choosing a wider or taller ratio, or a custom size with a
+      different aspect ratio, will prevent issues like black borders. · attempt 1/3 —
+      will retry
+Chrono Edit (LoRA : Upscaler) — recovered on retry
+      The image you provided is too large. Please use a smaller image or reduce the
+      upscale factor to ensure the image resolution is within limits. · attempt 1/3 —
+      will retry
+Chrono Edit (LoRA : Upscaler) — recovered on retry
+      The upscaled image would be too large. Please try a smaller upscale factor or a
+      smaller input image. · attempt 2/3 — will retry
+Decart - Lucy Edit (Pro) — recovered on retry
+      The video resolution you provided isn't supported. Please use 720p resolution for
+      your video file. · attempt 1/3 — will retry
+Deep Filter Net 3 — recovered on retry
+      The audio bitrate you entered is invalid. Please use a whole number like 128000
+      (128 kbps), 256000 (256 kbps), or 32000 (32 kbps). · attempt 1/3 — will retry
+ESRGAN (Upscale) — recovered on retry
+      The tile size you entered is too small. Please use a value of at least 200 pixels
+      for optimal display and to ensure your content is fully visible. · attempt 1/3 —
+      will retry
+FlashVSR (Upscale) — recovered on retry
+      The upscale factor you entered is too high. Please choose a smaller value (e.g.,
+      2x or 4x) to avoid image distortion and ensure the best quality output. · attempt
+      1/3 — will retry
+Heygen v3 (Lipsync : Precision) — recovered on retry
+      The audio and video you uploaded have different lengths. Please make sure they are
+      similar in duration and try again. · attempt 1/3 — will retry
+Kling Video v1 [Standard] Effects — recovered on retry
+      The feature you're trying to use isn't supported yet. Please refer to our help
+      documentation for a list of currently available features.
+Minimax - Speech v2.5 [Turbo] Preview — recovered on retry
+      Server rejected generation: Invalid form configurationValidation error: must NOT
+      have fewer than 1 characters
+Rife [V2V] — recovered on retry
+      You've requested too many frames. Please reduce the number of frames to 4 or less
+      and try again. · attempt 1/3 — will retry
+Sora v2 (Characters) — recovered on retry
+      The video you uploaded doesn't have the required 16:9 or 9:16 aspect ratio. Please
+      re-upload with a supported aspect ratio. · attempt 1/3 — will retry
+Workflow Utilities (Trim Video) — recovered on retry
+      Your end time must be after your start time. Please adjust the times so the end
+      time occurs later than the start time. · attempt 1/3 — will retry
+RealESRGAN (Upscale) — recovered on retry
+      Your video's resolution is too high. Please resize it so that the width multiplied
+      by the height is less than 8,294,400 pixels to continue. · attempt 1/3 — will
+      retry
+
+SLOWER THAN IT USED TO BE
+-------------------------
+Topaz (Upscale : Generative) [V2V]         56s -> 374s (6.7 x its usual)
+Bytedance - Seedance v2.5 (Reference)      119s -> 792s (6.7 x its usual, credits 1,065 to 1,207)
+Bytedance - Lynx                           127s -> 778s (6.1 x its usual)
+Luma Dream Machine - Ray 2                 133s -> 541s (4.1 x its usual)
+Hi3D v3.0 (Multi-view)                     488s -> 1844s (3.8 x its usual)
+RealESRGAN (Upscale)                       111s -> 418s (3.8 x its usual)
+Topaz (Denoise) [V2V]                      26s -> 96s (3.8 x its usual)
+
+MEDIA SOURCE CENSUS — every landing, reported by the code that landed it
+  platform: 228   local pool: 97   curated (never rolls): 140
+  split over rollable landings: 70% platform / 29% local  (rule: 75/25)
+  Recraft v4 (Style): rolled local -> image=local(25% roll), image=local(25% roll)
+  Recraft v4 (Vector : Style): rolled platform -> image=platform(dialog pick), image=platform(dialog pick)
+  Recraft v4 [Pro] Vector (Style): rolled local -> image=local(25% roll)
+  Recraft v4 [Pro] (Style): rolled platform -> image=platform(dialog pick)
+  Bria - Fibo Edit v1.5: rolled ? -> image=curated(pool routing), image=curated(pool routing), image=curated(pool routing)
+  Bytedance - Seedream v5 Pro (Layerize): rolled platform -> image=platform(dialog pick)
+  Google (Virtual Try-on): rolled ? -> image=curated(tryon pool routing), image=curated(tryon pool routing)
+  Hi3D (Relief): rolled platform -> image=platform(dialog pick)
+  Topaz (Adjust): rolled platform -> image=platform(url-mode)
+  Topaz (Denoise): rolled platform -> image=platform(dialog pick), video=platform(dialog pick), image=platform(populate url)
+  Topaz (Restore): rolled platform -> image=platform(url-mode)
+  Topaz (Upscale : Creative): rolled platform -> image=platform(url-mode)
+  Topaz (Sharpen): rolled local -> image=local(25% roll)
+  Topaz (Upscale : Generative): rolled platform -> image=platform(dialog pick)
+  Topaz (Upscale : Precision): rolled platform -> image=platform(dialog pick)
+  Topaz (Upscale : Transparent): rolled platform -> image=platform(dialog pick), image=platform(dialog pick)
+  XAI - Grok Imagine v2.0 (Edit): rolled platform -> image=platform(dialog pick)
+  Mirage - Avatar X: rolled platform -> video=platform(dialog pick), audio=curated(pool routing), video=platform(dialog pick), audio=curated(pool routing), video=platform(dialog pick), audio=curated(pool routing), video=platform(dialog pick), audio=curated(pool routing), video=platform(dialog pick), audio=curated(pool routing), video=platform(dialog pick), audio=curated(pool routing), video=platform(dialog pick), audio=curated(pool routing)
+  Bytedance - Seedance v2.5 [I2V]: rolled platform -> image=platform(dialog pick)
+  Gemini Omni Flash v1.1 [I2V]: rolled local -> image=local(25% roll), image=local(25% roll)
+  Gemini Omni Flash v1.1 (Reference): rolled platform -> image=platform(url-mode), video=platform(dialog pick)
+  LTX 2.5 [Fast] [I2V]: rolled ? -> image=curated(frame pair), image=curated(frame pair), image=curated(frame pair), image=curated(frame pair)
+  LTX 2.5 [Pro] [I2V]: rolled ? -> image=curated(frame pair), image=curated(frame pair)
+  Minimax H3 (LoRA) [I2V]: rolled ? -> image=curated(pool routing), image=curated(pool routing)
+  Minimax H3 [Max] [I2V]: rolled platform -> image=platform(url-mode), image=platform(dialog pick)
+  Mirage - Avatar X (Reference): rolled platform -> image=curated(pool routing), video=local(picker would not open — pool rescue), audio=curated(pool routing), image=curated(pool routing), video=local(picker would not open — pool rescue), audio=curated(pool routing), image=curated(pool routing), video=local(picker would not open — pool rescue), audio=curated(pool routing), image=curated(pool routing), video=local(picker would not open — pool rescue), audio=curated(pool routing), image=curated(pool routing), video=local(picker would not open — pool rescue), audio=curated(pool routing), image=curated(pool routing), video=local(picker would not open — pool rescue), audio=curated(pool routing), image=curated(pool routing), video=platform(dialog pick), audio=curated(pool routing)
+    LEAK: rolled platform but the video landed from the local pool via picker would not open — pool rescue — this line is the bug report
+    LEAK: rolled platform but the video landed from the local pool via picker would not open — pool rescue — this line is the bug report
+    LEAK: rolled platform but the video landed from the local pool via picker would not open — pool rescue — this line is the bug report
+    LEAK: rolled platform but the video landed from the local pool via picker would not open — pool rescue — this line is the bug report
+    LEAK: rolled platform but the video landed from the local pool via picker would not open — pool rescue — this line is the bug report
+    LEAK: rolled platform but the video landed from the local pool via picker would not open — pool rescue — this line is the bug report
+  Wan v3.0 [I2V]: rolled platform -> image=curated(frame pair), image=curated(frame pair)
+  Wan v3.0 (Reference): rolled platform -> image=platform(dialog pick)
+  Wan v3.0 [Prime] [I2V]: rolled platform -> image=curated(frame pair), image=curated(frame pair)
+  Bria - Background Removal (Green-screen Despill): rolled platform -> video=platform(dialog pick), video=platform(dialog pick), video=platform(populate url), video=platform(dialog pick), video=platform(dialog pick)
+  FLUX (Video Upscale): rolled local -> video=local(25% roll)
+  Gemini Omni Flash v1.1 (Edit): rolled local -> video=local(25% roll)
+  Minimax H3 (Reference : LoRA): rolled local -> image=local(25% roll), video=local(25% roll), audio=local(25% roll)
+  Topaz (Colorize): rolled platform -> video=platform(dialog pick), video=platform(dialog pick), video=platform(dialog pick), video=platform(dialog pick), video=platform(dialog pick), video=platform(dialog pick), video=platform(dialog pick), video=platform(dialog pick), video=platform(populate url)
+  Topaz (Deblur): rolled platform -> video=platform(dialog pick)
+  Topaz (Denoise) [V2V]: rolled platform -> video=platform(dialog pick), video=platform(dialog pick), video=platform(populate url), video=platform(dialog pick), video=platform(dialog pick), video=platform(populate url), video=platform(dialog pick), video=platform(dialog pick), video=platform(dialog pick), video=platform(populate url)
+  Topaz (Interpolate): rolled platform -> video=platform(dialog pick)
+  Topaz (Upscale : Creative) [V2V]: rolled platform -> video=platform(dialog pick)
+  Topaz (SDR to HDR): rolled local -> video=local(25% roll)
+  Topaz (Upscale : Generative) [V2V]: rolled platform -> video=platform(dialog pick), video=platform(dialog pick), video=platform(label-aimed url), video=platform(dialog pick)
+  Topaz (Upscale : Precision) [V2V]: rolled local -> video=local(25% roll)
+  Hi3D: rolled platform -> image=platform(dialog pick), image=platform(dialog pick), image=platform(dialog pick)
+  Hi3D v3.0: rolled platform -> image=platform(dialog pick)
+  Meshy v7: rolled ? -> image=local(25% roll), image=local(25% roll), image=local(25% roll)
+  Bytedance - Seed Audio v1.0: rolled platform -> image=local(picker empty — fallback), audio=curated(pool routing), image=platform(dialog pick), image=platform(dialog pick)
+    LEAK: rolled platform but the image landed from the local pool via picker empty — fallback — this line is the bug report
+  Decart - Lucy 2.5 (Realtime): rolled platform -> image=platform(url-mode), image=platform(dialog pick), image=platform(url-mode), image=platform(dialog pick), image=platform(dialog pick)
+  FLUX 3 (Extend Video) [Draft]: rolled ? -> video=local(25% roll), video=local(25% roll), video=local(25% roll)
+  FLUX 3 (First Last Frame) [Draft]: rolled platform -> image=curated(frame pair), image=curated(frame pair), image=platform(url-mode), image=curated(frame pair), image=curated(frame pair), image=platform(dialog pick)
+  FLUX 3 (Keyframes) [Draft]: rolled local -> image=local(25% roll)
+  FLUX 3 [Draft] [I2V]: rolled local -> image=local(25% roll)
+  FLUX.2 [klein] Realtime: rolled platform -> image=platform(dialog pick), image=platform(url-mode), image=platform(dialog pick)
+  LTX 2.3 [Quality] Extend Video (LoRA): rolled platform -> image=platform(dialog pick), video=platform(dialog pick)
+  LTX v2.3 - [Quality] Outpaint: rolled platform -> video=platform(dialog pick), video=platform(dialog pick)
+  Luma Agent - Ray v3.2 [V2V]: rolled local -> image=local(25% roll), video=local(25% roll), image=local(25% roll), video=local(25% roll), image=local(25% roll), video=local(25% roll)
+  OmniPart: rolled local -> image=local(25% roll), image=local(25% roll), image=local(25% roll)
+  Pixverse v5 (Effects): rolled local -> image=local(25% roll)
+  SAM 3 [V2V]: rolled platform -> video=platform(dialog pick), video=platform(populate url), video=platform(dialog pick), video=platform(populate url), video=platform(dialog pick), video=platform(populate url)
+  Sam 3 (3d Objects): rolled platform -> image=platform(dialog pick), image=platform(url-mode), image=platform(dialog pick)
+  Trellis v2 (LoRA): rolled platform -> image=platform(dialog pick), image=platform(dialog pick), image=platform(dialog pick)
+  Veed - Subtitles: rolled ? -> video=curated(pool routing), video=curated(pool routing), video=curated(pool routing)
+  AI Avatar (multi-text): rolled ? -> image=curated(pool routing)
+  Auto caption: rolled ? -> video=curated(pool routing), video=curated(pool routing), video=curated(pool routing)
+  Bria (Re-imagine): rolled local -> image=local(25% roll)
+  Bria - Eraser (Keypoints): rolled platform -> video=platform(dialog pick), video=platform(dialog pick), video=platform(dialog pick), video=platform(dialog pick), video=platform(populate url), video=platform(dialog pick), video=platform(dialog pick)
+  Bria - Eraser (Text): rolled local -> video=local(25% roll), video=local(25% roll), video=local(25% roll)
+  Bria - Fibo (Edit): rolled local -> image=local(25% roll), image=local(25% roll), image=local(25% roll), image=local(25% roll), image=local(25% roll), image=local(25% roll), image=local(25% roll), image=local(25% roll), image=local(25% roll), image=local(25% roll), image=local(25% roll), image=local(25% roll), image=local(25% roll), image=local(25% roll)
+  Bria - Fibo BBQ (Preview): rolled platform -> image=platform(dialog pick), image=platform(dialog pick), image=platform(dialog pick), image=platform(dialog pick), image=platform(dialog pick), image=platform(dialog pick), image=platform(dialog pick)
+  Bria Video (Erase : Keypoints): rolled local -> video=local(25% roll), video=local(25% roll), video=local(25% roll)
+  Bria Video (Erase): rolled platform -> video=platform(dialog pick), video=platform(dialog pick), video=platform(dialog pick), video=platform(dialog pick)
+  Bytedance - Lynx: rolled ? -> image=curated(pool routing)
+  Bytedance - OmniHuman v1.5: rolled ? -> image=curated(pool routing), audio=local(25% roll)
+  Chrono (Edit): rolled platform -> image=platform(dialog pick)
+  Chrono Edit (LoRA : Upscaler): rolled platform -> image=platform(dialog pick), image=platform(dialog pick), image=platform(dialog pick)
+  Clarity Ai - Crystal Upscaler: rolled platform -> image=platform(dialog pick), image=platform(url-mode), image=platform(dialog pick), image=platform(url-mode)
+  Clarity Ai - Crystal Upscaler [V2V]: rolled local -> video=local(25% roll), video=local(25% roll), video=local(25% roll)
+  Decart - Lucy Edit (Pro): rolled local -> video=local(25% roll), video=local(25% roll)
+  Decart - Lucy2 VTON (Realtime): rolled platform -> image=platform(dialog pick), image=local(25% roll), image=platform(dialog pick), image=platform(dialog pick), image=platform(url-mode), image=platform(url-mode), image=platform(dialog pick)
+    LEAK: rolled platform but the image landed from the local pool via 25% roll — this line is the bug report
+  Deep Filter Net 3: rolled ? -> audio=local(25% roll), audio=local(25% roll)
+  ESRGAN (Upscale): rolled platform -> image=platform(url-mode), image=platform(url-mode)
+  F5 TTS (Speech): rolled ? -> audio=curated(pool routing), audio=curated(pool routing), audio=curated(pool routing)
+  FLUX - PuLID (Identity): rolled ? -> image=curated(pool routing)
+  FlashVSR (Upscale): rolled platform -> video=platform(dialog pick), video=platform(dialog pick), video=platform(dialog pick), video=platform(dialog pick)
+  Half Moon AI (Edit): rolled platform -> image=platform(dialog pick), image=platform(dialog pick), image=platform(dialog pick)
+  Half Moon AI (Face Swap : Multi): rolled platform -> image=curated(pool routing), image=curated(pool routing), image=curated(pool routing)
+  Half Moon AI (Face Swap : Multi) [V2V]: rolled local -> image=curated(pool routing), image=curated(pool routing), video=local(25% roll), image=curated(pool routing), image=curated(pool routing), video=local(25% roll), image=curated(pool routing), image=curated(pool routing), video=local(25% roll)
+  Half Moon AI (Style): rolled platform -> image=platform(url-mode), image=platform(dialog pick), image=platform(dialog pick), image=platform(dialog pick), image=platform(dialog pick), image=platform(dialog pick), image=platform(url-mode), image=platform(dialog pick), image=platform(dialog pick), image=platform(dialog pick)
+  Heygen v3 (Lipsync : Precision): rolled ? -> video=curated(pool routing), audio=curated(pool routing), video=curated(pool routing), audio=curated(pool routing), video=curated(pool routing), audio=curated(pool routing)
+  Ideogram v2 (Turbo : Edit): rolled platform -> image=platform(dialog pick), image=platform(dialog pick), image=platform(dialog pick), image=platform(url-mode), image=platform(url-mode), image=platform(url-mode)
+  Ideogram v3 (Layerize Text): rolled platform -> image=platform(dialog pick), image=platform(dialog pick), image=platform(dialog pick)
+  Image Apps v2 (Photo Restoration): rolled local -> image=local(25% roll)
+  Kling Video v1 [Standard] Effects: rolled platform -> image=platform(dialog pick), image=platform(dialog pick), image=platform(dialog pick)
+  LTX 2 (Fast) [I2V]: rolled platform -> image=platform(url-mode), image=platform(dialog pick), image=platform(dialog pick), image=platform(dialog pick), image=platform(dialog pick), image=local(25% roll), image=local(picker would not open — pool rescue), image=platform(url-mode)
+    LEAK: rolled platform but the image landed from the local pool via 25% roll — this line is the bug report
+    LEAK: rolled platform but the image landed from the local pool via picker would not open — pool rescue — this line is the bug report
+  LTX 2 Retake: rolled platform -> video=platform(dialog pick), video=platform(dialog pick), video=platform(dialog pick), video=platform(dialog pick), video=platform(dialog pick), video=platform(dialog pick), video=platform(dialog pick), video=platform(dialog pick), video=platform(dialog pick), video=platform(dialog pick), video=platform(dialog pick), video=platform(dialog pick), video=platform(populate url)
+  LTX 2.3 [Quality] Extend Video: rolled ? -> image=curated(pool routing), video=curated(pool routing)
+  LTX v2 [I2V]: rolled local -> image=local(25% roll), image=local(25% roll), image=local(25% roll), image=local(25% roll), image=local(25% roll), image=local(25% roll), image=local(25% roll)
+  LTX v2.3 [I2V]: rolled local -> image=curated(frame pair), image=curated(frame pair)
+  Lightx Recamera: rolled local -> video=local(25% roll)
+  Lightx Relight: rolled platform -> video=platform(dialog pick), video=platform(dialog pick), video=platform(dialog pick), video=local(picker would not open — pool rescue)
+    LEAK: rolled platform but the video landed from the local pool via picker would not open — pool rescue — this line is the bug report
+  Luma Dream Machine - Ray 2 (Reframe : Flash): rolled platform -> image=platform(url-mode), video=platform(dialog pick), video=platform(dialog pick), video=platform(populate url)
+  Mirelo Ai - SFX v1.6 (Inpaint Audio): rolled platform -> audio=platform(dialog pick), audio=platform(dialog pick)
+  Omni Zero: rolled ? -> image=curated(pool routing), image=curated(pool routing), image=curated(pool routing), image=curated(pool routing), image=curated(schema-net pool routing), image=curated(pool routing), image=curated(pool routing), image=curated(pool routing), image=curated(pool routing), image=curated(schema-net pool routing), image=curated(pool routing), image=curated(pool routing), image=curated(pool routing), image=curated(pool routing), image=curated(schema-net pool routing), image=curated(pool routing), image=curated(pool routing), image=curated(pool routing), image=curated(pool routing), image=curated(schema-net pool routing), image=curated(pool routing), image=curated(pool routing), image=curated(pool routing), image=curated(pool routing), image=curated(schema-net pool routing), image=curated(pool routing), image=curated(pool routing), image=curated(pool routing), image=curated(pool routing), image=curated(pool routing), image=curated(pool routing), image=curated(pool routing), image=curated(pool routing), image=curated(schema-net pool routing)
+  Otoy Studio Ltx 2 Extend Video: rolled platform -> video=platform(dialog pick), video=platform(dialog pick), video=platform(populate url), video=platform(dialog pick)
+  Pika v2 (Turbo) [I2V]: rolled platform -> image=platform(url-mode), image=platform(dialog pick), image=platform(url-mode), image=platform(dialog pick), image=platform(dialog pick), image=platform(dialog pick), image=platform(url-mode), image=platform(url-mode)
+  Pika v2.1 [I2V]: rolled local -> image=local(25% roll), image=local(25% roll), image=local(25% roll), image=local(25% roll), image=local(25% roll), image=local(25% roll), image=local(25% roll)
+  Pixverse c1 (Reference to Video): rolled platform -> image=platform(url-mode), image=platform(dialog pick)
+  Qwen 3 TTS : 0.6B (Speech): rolled platform -> audio=platform(dialog pick), audio=platform(dialog pick), audio=platform(dialog pick)
+  Qwen 3 TTS : 1.7B (Speech): rolled platform -> audio=platform(dialog pick), audio=platform(dialog pick), audio=platform(dialog pick)
+  RealESRGAN (Upscale): rolled platform -> video=platform(dialog pick), video=platform(dialog pick), video=platform(dialog pick), video=platform(dialog pick), video=platform(dialog pick), video=platform(dialog pick)
+  Rife: rolled ? -> image=curated(frame pair), image=curated(frame pair), image=curated(schema-net pool routing), image=curated(frame pair), image=curated(frame pair), image=curated(schema-net pool routing), image=curated(frame pair), image=curated(frame pair), image=curated(schema-net pool routing)
+  Rife [V2V]: rolled platform -> video=platform(dialog pick), video=platform(populate url), video=platform(dialog pick), video=platform(populate url)
+  Runway Gen-4 - Aleph: rolled platform -> video=platform(dialog pick), video=platform(dialog pick), video=platform(dialog pick)
+  SAM 2 (Seg): rolled platform -> image=platform(url-mode), video=platform(dialog pick), image=platform(dialog pick), video=platform(dialog pick), video=platform(dialog pick), image=platform(dialog pick), video=platform(dialog pick)
+  SDXL & SD (Inpaint): rolled platform -> image=platform(url-mode), image=platform(url-mode)
+  Smart Resize: rolled local -> image=local(25% roll)
+  Sora v2 (Characters): rolled local -> video=local(25% roll), video=local(25% roll)
+  Sora v2 [Pro] [I2V]: rolled platform -> image=platform(dialog pick)
+  Sync Lipsync - React 1: rolled ? -> video=curated(pool routing), audio=curated(pool routing)
+  Sync Lipsync v2: rolled ? -> video=curated(pool routing), audio=curated(pool routing), video=curated(pool routing), audio=curated(pool routing), video=curated(pool routing), audio=curated(pool routing)
+  Sync Lipsync v3: rolled ? -> video=curated(pool routing), audio=curated(pool routing), video=curated(pool routing), audio=curated(pool routing)
+  Vidu Q2 Pro (Reference): rolled ? -> image=curated(pool routing)
+  Wan Vace Apps (Long Reframe): rolled platform -> video=platform(dialog pick)
+  Workflow Utilities (Auto-subtitle): rolled ? -> video=curated(pool routing), video=curated(pool routing), video=curated(pool routing)
+  Wan v2.7 [I2V]: rolled local -> image=curated(pool routing), image=curated(pool routing), video=curated(pool routing), audio=local(25% roll), image=curated(pool routing), image=curated(pool routing), video=curated(pool routing), audio=local(25% roll)
+  Workflow Utilities (Trim Video): rolled local -> video=local(25% roll), video=local(25% roll)
+
+CLAUDE THIS RUN: asked 86 (self-heal, self-heal, self-heal, self-heal, self-heal, self-heal, self-heal, self-heal) — 86 answered via the claude command.
