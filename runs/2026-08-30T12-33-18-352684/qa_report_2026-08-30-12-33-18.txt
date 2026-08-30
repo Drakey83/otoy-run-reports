@@ -1,0 +1,397 @@
+==============================================================================
+OTOY AUTOMATION — WHAT FAILED
+==============================================================================
+Environment:  dev
+Run started:  2026-08-30T12:33:18.352684
+Models tried: 164      Failed: 71
+  the app's: 46      the website's: 18      an account limit: 0      nothing decided: 7
+
+==============================================================================
+THE APP'S FAULT — 46
+==============================================================================
+Nothing to send. This is the list to hand back to whoever maintains the app.
+
+  AI Avatar (multi-text)
+      Your video is too long. Please shorten it to 241 frames or less and try again.
+  Auto caption
+      We couldn't use the font you selected. Please check that the font file exists at
+      the specified path and that your system has permission to access it.
+  Bria - Eraser (Keypoints)
+      The provided keypoints are invalid. Please check that they are correctly formatted
+      as JSON.
+  Bria - Eraser (Mask)
+      The data you provided has inconsistent dimensions. Please ensure all input data
+      has matching sizes or shapes.
+  Bria - Eraser (Text)
+      We couldn't understand your request. Please try again with a more detailed or
+      clearer description of what you're looking for.
+  Bria - Fibo Edit v1.5
+      There was an error during file processing: There was an error during file
+      processing: body: Value error, A reference image is required: pass image_url, or
+      image_urls with 1-4 images.
+  Bria - Fibo Gen v1.5
+      The color scheme you entered isn't valid. Please choose from the available
+      options, like "warm", "cool", or "monochromatic".
+  Bria - Product Dimensions
+      No matching job ever appeared in the account queue — the job likely never actually
+      started
+  Bria Video (Erase : Keypoints)
+      The keypoints you provided are not correctly formatted. Please ensure your input
+      is a valid JSON string, like this: `[{"point": "example"}]`.
+  Bria Video (Erase : Mask)
+      The data you provided has inconsistent dimensions. Please ensure all input data
+      has matching sizes or shapes.
+  Bria Video (Erase)
+      Your video exceeds the maximum allowed length. Please shorten it to 6 seconds or
+      less to proceed.
+  Bytedance - Seed Audio v1.0
+      We can't process requests that combine images and audio. Please submit them as
+      separate requests to continue.
+  Clarity Ai - Crystal Upscaler [V2V]
+      The video's resolution is too high. Please try a lower resolution, as the maximum
+      supported resolution is 5K (5120x2880 pixels).
+  Decart - Lucy 2.5 (Realtime)
+      Could not click Create button — every required field is filled and the site gave
+      no reason on the page · the form held — Camera:EMPTY; Enable Prompt
+      Expansion:EMPTY; Reference Image File:EMPTY; Prompt:set
+  FLUX 3 (Draft Enhance)
+      We couldn't access the file from the provided URL. Please double-check the link
+      for typos and ensure it's publicly accessible without requiring a login or special
+      permissions, then try again.
+  FLUX 3 (First Last Frame) [Draft]
+      Could not click Create button — every required field is filled and the site gave
+      no reason on the page · the form held — End Image File:EMPTY; Start Image
+      File:EMPTY; Generate Audio:set; Prompt:set; Safety Tolerance:set
+  Half Moon AI (Edit)
+      Could not click Create button — every required field is filled and the site gave
+      no reason on the page · the form held — Input Image File:EMPTY; Additional
+      Elements:set; Custom Prompt:set; Prompt:set
+  Half Moon AI (Face Swap : Multi)
+      We couldn't find what you were looking for. Please check the information you
+      entered and try again.
+  Half Moon AI (Face Swap : Multi) [V2V]
+      We couldn't find what you were looking for. Please check the information you
+      entered and try again.
+  Half Moon AI (Style)
+      We couldn't find what you were looking for. Please check the information you
+      entered and try again.
+  Hi3D
+      To ensure your request is processed correctly, please select a valid image size:
+      512, 1024, 1536, 1536pro, 1536fast, or 1536profast.
+  Hi3D (Multi-view)
+      The resolution you provided isn't supported. Please use a supported resolution
+      like 1536.
+  Ideogram v2 (Turbo : Edit)
+      To proceed, please ensure your image and mask are the same size, such as 1024x1024
+      pixels.
+  Ideogram v3 (Layerize Text)
+      You can either upload a custom font file or select a font from our list for your
+      H1 heading, but not both. Please choose only one option.
+  LTX 2 Retake
+      We couldn't access the file from the URL you provided. Please double-check the
+      link and try again. · we gave it
+      https://otoy-ai-rndrstaging-us-east-1.s3.amazonaws.com/8e8fed5a-e207-4f47-add9-bc9
+      1c2d4e647/c0e3 (video), which it could not fetch · we gave it
+      https://v3b.fal.media/files/b/0a8d03c4/zy-MD131DqeVEi8VRMUmD_out_9sec.mp4 (video),
+      which it could not fetch
+  LTX v2 : 19B (Extend Video : LoRA)
+      Some required information is missing. Please ensure all necessary fields are
+      filled in. · we could not work out which control the site wanted turned on, from
+      the message or from this form's own controls
+  Lightx Relight
+      The reference ID you provided is too long. Please shorten it to 48 characters or
+      less.
+  OmniPart
+      Server rejected generation: Failed to generateWe couldn't detect any recognizable
+      content. Try a different prompt, provide an image mask, or adjust the detection
+      threshold.
+  Otoy Studio Ltx 2 Extend Video
+      No matching job ever appeared in the account queue — the job likely never actually
+      started
+  Qwen 3 TTS : 0.6B (Speech)
+      No matching job ever appeared in the account queue — the job likely never actually
+      started
+  Qwen 3 TTS : 1.7B (Speech)
+      We couldn't load your speaker's voice. Please check that the file is not corrupted
+      and is in a supported audio format like WAV or MP3.
+  Recraft v4 (Style)
+      The style ID you entered is incorrect. Please check that it is a valid
+      32-character identifier.
+  Recraft v4 (Vector : Style)
+      The style ID you entered is incorrect. Please check that it is a valid
+      32-character identifier.
+  Recraft v4 [Pro] (Style)
+      The style ID you entered is incorrect. Please check that it is a valid
+      32-character identifier.
+  Recraft v4 [Pro] Vector (Style)
+      The style ID you entered is incorrect. Please check that it is a valid
+      32-character identifier.
+  Rife
+      To process your request, the first and last images must have identical dimensions.
+      Please ensure both images are the same size.
+  Runway Gen-4 - Aleph
+      We couldn't process your video. Please ensure the link is correct and the video is
+      publicly accessible, in a supported format like MP4, and under the maximum size
+      limit.
+  SAM 2 (Seg)
+      To segment the video, please provide at least one prompt or bounding box prompt.
+  SAM 3 [V2V]
+      Create stayed disabled — this model requires Image Url (image) and nothing of ours
+      ever went into it (a leftover preview from the previous model can look filled
+      while the site sees it as empty)
+  Sam 3 (3d Objects)
+      We couldn't detect any recognizable content. Try a different prompt, provide an
+      image mask, or adjust the detection threshold.
+  Sync Lipsync v2
+      The sync mode you selected isn't valid. Please choose from 'cut_off', 'loop',
+      'bounce', 'silence', or 'remap' to fix this.
+  Topaz (Colorize)
+      Create stayed disabled — the site says: Invalid content type:
+      application/octet-stream. Expected: video/
+  Trellis v2 (LoRA)
+      Please provide at least one Trellis.2 LoRA checkpoint URL. This is required for
+      creating sparse structures, geometries, or textures. · we could not tell which
+      control the site meant - it mentions useurl, and none of them is on while another
+      is off
+  Veed - Subtitles
+      No matching job ever appeared in the account queue — the job likely never actually
+      started
+  Workflow Utilities (Auto-subtitle)
+      We couldn't process your video. Please ensure it's in .mp4 or .mov format.
+  Workflow Utilities (Blend Video)
+      Server rejected generation: Failed to generateYour end time must be after your
+      start time. Please adjust the times so the end time occurs later than the start
+      time.
+
+==============================================================================
+THE WEBSITE'S FAULT — 18
+==============================================================================
+Written up one at a time below, with the reasoning for each.
+
+  Beatoven Music
+      We're having trouble processing your request right now. This can happen with
+      complex or lengthy requests. Please try again with a simpler or shorter input.
+  Beatoven SFX
+      We're having trouble processing your request right now. This can happen with
+      complex or lengthy requests. Please try again with a simpler or shorter input.
+  Bria - Fibo (Edit)
+      We're experiencing a temporary technical issue. Please try again in a few moments.
+      We apologize for the inconvenience.
+  Bria - Fibo BBQ (Preview)
+      We're experiencing a temporary technical issue. Please try again in a few moments.
+      We apologize for the inconvenience.
+  Clarity Ai - Crystal Upscaler
+      We're having trouble processing your request right now. This can happen with
+      complex or lengthy requests. Please try again with a simpler or shorter input.
+  LTX 2 (Fast)
+      We're experiencing a temporary technical issue. Please try again in a few moments.
+      We apologize for the inconvenience.
+  LTX 2 (Fast) [I2V]
+      We're experiencing a temporary technical issue. Please try again in a few moments.
+      We apologize for the inconvenience.
+  LTX v2
+      We're experiencing a temporary technical issue. Please try again in a few moments.
+      We apologize for the inconvenience.
+  LTX v2 (Fast)
+      We're experiencing a temporary technical issue. Please try again in a few moments.
+      We apologize for the inconvenience.
+  LTX v2 [I2V]
+      We're experiencing a temporary technical issue. Please try again in a few moments.
+      We apologize for the inconvenience.
+  Minimax Voice Design
+      We're experiencing a temporary technical issue. Please try again in a few moments.
+      We apologize for the inconvenience.
+  Mirage - Avatar X
+      We're having trouble processing your request. Please check that you're only
+      entering information in the designated fields, without any extra text or symbols.
+  Mirage - Avatar X (Reference)
+      We're having trouble processing your request. Please check that you're only
+      entering information in the designated fields, without any extra text or symbols.
+  Omni Zero
+      We're experiencing a temporary technical issue. Please try again in a few moments.
+      We apologize for the inconvenience.
+  Pika v2 (Turbo)
+      We're experiencing a temporary technical issue. Please try again in a few moments.
+      We apologize for the inconvenience.
+  Pika v2 (Turbo) [I2V]
+      We're experiencing a temporary technical issue. Please try again in a few moments.
+      We apologize for the inconvenience.
+  Pika v2.1
+      We're experiencing a temporary technical issue. Please try again in a few moments.
+      We apologize for the inconvenience.
+  Pika v2.1 [I2V]
+      We're experiencing a temporary technical issue. Please try again in a few moments.
+      We apologize for the inconvenience.
+
+==============================================================================
+NOTHING DECIDED THESE — 7
+==============================================================================
+Here because no rule settled them, not as a guess. A message nothing recognises is the interesting kind.
+
+  Argil - Avatars
+      We're sorry, your request timed out. This can happen with complex queries. Please
+      try simplifying your request or breaking it into smaller parts.
+  Decart - Lucy2 VTON (Realtime)
+      The page or resource you're looking for couldn't be found. Please double-check the
+      address and try again.
+  F5 TTS (Speech)
+      The voice you selected is no longer available. Please choose a different voice
+      from the list to continue.
+  FLUX.2 [klein] Realtime
+      The page or resource you're looking for couldn't be found. Please double-check the
+      address and try again.
+  Mirelo Ai - SFX v1.6 (Inpaint Audio)
+      Server rejected generation: Invalid form configurationValidation failed for field
+      "AudioSegmentSpec"
+  Sync Lipsync v3
+      Server rejected generation: Failed to generateThe sync mode you selected isn't
+      valid. Please choose from 'cut_off', 'loop', 'bounce', 'silence', or 'remap' to
+      fix this.
+  Wan v2.7 [I2V]
+      There was an error during file processing: There was an error during file
+      processing: Value error, Input must be a valid HTTPS URL or a Data URI, Value
+      error, Input must be a valid HTTPS URL or a Data URI
+
+==============================================================================
+THE WEBSITE'S BUGS, WRITTEN UP
+==============================================================================
+>>> THE SITE SAYS IT IS: Dev build {dev-ssm_v3.17.0} Aug 28, 2026
+>>> Read from the site's own footer during the run, and repeated at the bottom of
+>>> every ticket below. It is the first thing the web team asks for.
+
+3 distinct problem(s) across 18 model(s).
+
+##############################################################################
+WEBSITE BUG 1 of 3
+##############################################################################
+WHY THIS LOOKS LIKE THE WEBSITE'S:
+  the site refused in its own words, naming nothing about our request.
+  The same refusal on 2 models, which points at something they share rather than
+  at any one model's own configuration.
+  Every one failed in under ten seconds, so nothing was attempted and then refused —
+  it was refused before it started.
+
+------------------------------------------------------------------------------
+TITLE: 2 models fail to generate — site returns "We're having trouble processing your request"
+
+SUMMARY:
+  Mirage - Avatar X, Mirage - Avatar X (Reference) failed to generate on dev.
+  The site returned: "We're having trouble processing your request. Please check that you're only entering information in the designated fields, without any extra text or symbols.".
+  Recorded in this run: each failed after 1–5s.
+
+EXPECTED:
+  The model produces a generation.
+
+ACTUAL:
+  The generation fails and the site returns "We're having trouble processing your request. Please check that you're only entering information in the designated fields, without any extra text or symbols."
+
+DEV BUILD NUMBER:
+  Dev build {dev-ssm_v3.17.0} Aug 28, 2026
+
+SCREEN RECORDING:
+  C:\Users\reidc\AppData\Local\Programs\OTOY Automation\test-results\bug_clips\clip_Mirage---Avatar-X.mp4
+  (the settings being filled in, then straight to the failure — the waiting is cut out)
+
+##############################################################################
+WEBSITE BUG 2 of 3
+##############################################################################
+WHY THIS LOOKS LIKE THE WEBSITE'S:
+  the site refused in its own words, naming nothing about our request.
+  The same refusal on 13 models, which points at something they share rather than
+  at any one model's own configuration.
+
+------------------------------------------------------------------------------
+TITLE: 13 models fail to generate — site returns "We're experiencing a temporary technical issue"
+
+SUMMARY:
+  Bria - Fibo (Edit), Bria - Fibo BBQ (Preview), LTX 2 (Fast), LTX 2 (Fast) [I2V], LTX v2, LTX v2 (Fast) and 7 more failed to generate on dev.
+  The site returned: "We're experiencing a temporary technical issue. Please try again in a few moments. We apologize for the inconvenience.".
+  Recorded in this run: each failed after 5–72s.
+
+EXPECTED:
+  The model produces a generation.
+
+ACTUAL:
+  The generation fails and the site returns "We're experiencing a temporary technical issue. Please try again in a few moments. We apologize for the inconvenience."
+
+DEV BUILD NUMBER:
+  Dev build {dev-ssm_v3.17.0} Aug 28, 2026
+
+SCREEN RECORDING:
+  C:\Users\reidc\AppData\Local\Programs\OTOY Automation\test-results\bug_clips\clip_LTX-2-Fast.mp4
+  (the settings being filled in, then straight to the failure — the waiting is cut out)
+
+##############################################################################
+WEBSITE BUG 3 of 3
+##############################################################################
+WHY THIS LOOKS LIKE THE WEBSITE'S:
+  the site refused in its own words, naming nothing about our request.
+  The same refusal on 3 models, which points at something they share rather than
+  at any one model's own configuration.
+
+------------------------------------------------------------------------------
+TITLE: 3 models fail to generate — site returns "We're having trouble processing your request right now"
+
+SUMMARY:
+  Beatoven Music, Beatoven SFX, Clarity Ai - Crystal Upscaler failed to generate on dev.
+  The site returned: "We're having trouble processing your request right now. This can happen with complex or lengthy requests. Please try again with a simpler or shorter input.".
+  Recorded in this run: each failed after 930–945s.
+
+EXPECTED:
+  The model produces a generation.
+
+ACTUAL:
+  The generation fails and the site returns "We're having trouble processing your request right now. This can happen with complex or lengthy requests. Please try again with a simpler or shorter input."
+
+DEV BUILD NUMBER:
+  Dev build {dev-ssm_v3.17.0} Aug 28, 2026
+
+SCREEN RECORDING:
+  C:\Users\reidc\AppData\Local\Programs\OTOY Automation\test-results\bug_clips\clip_Beatoven-Music.mp4
+  (the settings being filled in, then straight to the failure — the waiting is cut out)
+
+==============================================================================
+WHAT CLAUDE MADE OF IT — a suggestion, not a verdict
+==============================================================================
+Read this next to the lists above, not instead of them. Where the two
+disagree, the rules are the ones that were checked.
+
+PART 1 — VERDICTS
+
+FLUX.2 [klein] Realtime :: STILL UNCLEAR :: A not-found message does not say whether the address was missing on the site or wrong in what the app requested.
+Argil - Avatars :: STILL UNCLEAR :: A timeout after 1845s reports only that the request did not finish, not whose side caused it.
+Decart - Lucy2 VTON (Realtime) :: STILL UNCLEAR :: Same not-found message, which does not identify who is responsible for the address.
+F5 TTS (Speech) :: APP :: The site says the selected voice is not on its list, so the app supplied a voice the site does not offer.
+Mirelo Ai - SFX v1.6 (Inpaint Audio) :: STILL UNCLEAR :: The message names a failed field validation and an invalid form configuration without saying whether the value or the form was at fault.
+Sync Lipsync v3 :: APP :: The site lists the five valid sync modes and the app supplied one outside that list.
+Wan v2.7 [I2V] :: APP :: The site states the input must be an HTTPS URL or Data URI, and the app supplied something that was neither.
+
+PART 2 — GROUPED WRITE-UP
+
+TICKET 1 — thirteen failures share one message and are written as one bug.
+
+TITLE: Temporary technical issue error on generation across 13 models
+SUMMARY: Bria - Fibo (Edit), Bria - Fibo BBQ (Preview), LTX 2 (Fast), LTX 2 (Fast) [I2V], LTX v2, LTX v2 (Fast), LTX v2 [I2V], Minimax Voice Design, Omni Zero, Pika v2 (Turbo), Pika v2 (Turbo) [I2V], Pika v2.1, and Pika v2.1 [I2V] all failed with the identical message. Environment: dev.
+EXPECTED: Generation completes.
+ACTUAL: The site returned "We're experiencing a temporary technical issue. Please try again in a few moments. We apologize for the inconvenience."
+DEV BUILD NUMBER:
+
+TICKET 2
+
+TITLE: Trouble processing request error on Beatoven Music, Beatoven SFX, and Clarity Ai - Crystal Upscaler
+SUMMARY: Three models failed with the identical message referring to complex or lengthy requests. Environment: dev.
+EXPECTED: Generation completes.
+ACTUAL: The site returned "We're having trouble processing your request right now. This can happen with complex or lengthy requests. Please try again with a simpler or shorter input."
+DEV BUILD NUMBER:
+
+TICKET 3
+
+TITLE: Designated-fields error on Mirage - Avatar X and Mirage - Avatar X (Reference)
+SUMMARY: Both Mirage - Avatar X variants failed with the identical message. Environment: dev.
+EXPECTED: Generation completes.
+ACTUAL: The site returned "We're having trouble processing your request. Please check that you're only entering information in the designated fields, without any extra text or symbols."
+DEV BUILD NUMBER:
+
+==============================================================================
+Everything above the Claude section is written by the app from this run's
+own records — every line traces to something the run or the site reported.
