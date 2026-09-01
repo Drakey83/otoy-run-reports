@@ -1,0 +1,177 @@
+OTOY Automation — Run Log
+================================================================
+Environment:  dev
+Started:      2026-09-01T15:01:23.133173
+Result:       0 passed, 0 failed of 165
+================================================================
+
+THE RUN, IN PLAIN ENGLISH
+-------------------------
+On dev: 0 of 165 models passed.
+SUCCESS_PENDING  Bria - Eraser (Mask) · 3.1s
+WAITING          AI Avatar (multi-text)
+WAITING          Argil - Avatars
+WAITING          Auto caption
+WAITING          Beatoven Music
+WAITING          Beatoven SFX
+WAITING          Bria (Re-imagine)
+WAITING          Bria - Background Removal (Green-screen Despill)
+WAITING          Bria - Eraser (Keypoints)
+WAITING          Bria - Eraser (Text)
+WAITING          Bria - Fibo (Edit)
+WAITING          Bria - Fibo BBQ (Preview)
+WAITING          Bria - Fibo Edit v1.5
+WAITING          Bria - Fibo Gen v1.5
+WAITING          Bria - Product Dimensions
+WAITING          Bria Video (Erase : Keypoints)
+WAITING          Bria Video (Erase : Mask)
+WAITING          Bria Video (Erase)
+WAITING          Bytedance - Lynx
+WAITING          Bytedance - OmniHuman v1.5
+WAITING          Bytedance - Seed Audio v1.0
+WAITING          Bytedance - Seedance v2.5
+WAITING          Bytedance - Seedance v2.5 (Reference)
+WAITING          Bytedance - Seedance v2.5 [I2V]
+WAITING          Bytedance - Seedream v5 Pro (Layerize)
+WAITING          Chatterbox (Multilingual)
+WAITING          Chrono (Edit)
+WAITING          Chrono Edit (LoRA : Upscaler)
+WAITING          Clarity Ai - Crystal Upscaler
+WAITING          Clarity Ai - Crystal Upscaler [V2V]
+WAITING          Decart - Lucy 2.5 (Realtime)
+WAITING          Decart - Lucy Edit (Pro)
+WAITING          Decart - Lucy2 VTON (Realtime)
+WAITING          Deep Filter Net 3
+WAITING          ESRGAN (Upscale)
+WAITING          F5 TTS (Speech)
+WAITING          Fashn Tryon v1.5
+WAITING          FlashVSR (Upscale)
+WAITING          FLUX (Video Upscale)
+WAITING          FLUX - PuLID (Identity)
+WAITING          FLUX 3 (Draft Enhance)
+WAITING          FLUX 3 (Extend Video) [Draft]
+WAITING          FLUX 3 (First Last Frame) [Draft]
+WAITING          FLUX 3 (Keyframes) [Draft]
+WAITING          FLUX 3 [Draft] [I2V]
+WAITING          FLUX.2 [klein] Realtime
+WAITING          Gemini Omni Flash v1.1
+WAITING          Gemini Omni Flash v1.1 (Edit)
+WAITING          Gemini Omni Flash v1.1 (Reference)
+WAITING          Gemini Omni Flash v1.1 [I2V]
+WAITING          Google (Virtual Try-on)
+WAITING          Half Moon AI (Edit)
+WAITING          Half Moon AI (Face Swap : Multi)
+WAITING          Half Moon AI (Face Swap : Multi) [V2V]
+WAITING          Half Moon AI (Style)
+WAITING          Heygen v3 (Lipsync : Precision)
+WAITING          Hi3D
+WAITING          Hi3D (Multi-view)
+WAITING          Hi3D (Relief)
+WAITING          Hi3D v3.0
+WAITING          Hi3D v3.0 (Multi-view)
+WAITING          Ideogram v2 (Turbo : Edit)
+WAITING          Ideogram v3 (Layerize Text)
+WAITING          Image Apps v2 (Photo Restoration)
+WAITING          Kling Video v1 [Standard] Effects
+WAITING          Lightx Recamera
+WAITING          Lightx Relight
+WAITING          LTX 2 (Fast)
+WAITING          LTX 2 (Fast) [I2V]
+WAITING          LTX 2 Retake
+WAITING          LTX 2.3 [Quality] Extend Video
+WAITING          LTX 2.3 [Quality] Extend Video (LoRA)
+WAITING          LTX 2.5 [Fast]
+WAITING          LTX 2.5 [Fast] [I2V]
+WAITING          LTX 2.5 [Pro]
+WAITING          LTX 2.5 [Pro] [I2V]
+WAITING          LTX v2
+WAITING          LTX v2 (Fast)
+WAITING          LTX v2 : 19B (Extend Video : LoRA)
+WAITING          LTX v2 [I2V]
+WAITING          LTX v2.3 - [Quality] Outpaint
+WAITING          LTX v2.3 [I2V]
+WAITING          Luma Agent - Ray v3.2 [V2V]
+WAITING          Luma Dream Machine - Ray 2
+WAITING          Luma Dream Machine - Ray 2 (Reframe : Flash)
+WAITING          Meshy v6 (Multi Image)
+WAITING          Meshy v7
+WAITING          Meshy v7 (Multi Image)
+WAITING          Minimax - Speech v2.5 [Turbo] Preview
+WAITING          Minimax H3 (LoRA)
+WAITING          Minimax H3 (LoRA) [I2V]
+WAITING          Minimax H3 (Reference : LoRA)
+WAITING          Minimax H3 [Max]
+WAITING          Minimax H3 [Max] [I2V]
+WAITING          Minimax Music
+WAITING          Minimax Music v3
+WAITING          Minimax Video-01 (Director)
+WAITING          Minimax Voice Design
+WAITING          Mirage - Avatar X
+WAITING          Mirage - Avatar X (Reference)
+WAITING          Mirelo Ai - SFX v1.6 (Inpaint Audio)
+WAITING          Omni Zero
+WAITING          OmniPart
+WAITING          Otoy Studio Ltx 2 Extend Video
+WAITING          Ovis Image
+WAITING          Pika v2 (Turbo)
+WAITING          Pika v2 (Turbo) [I2V]
+WAITING          Pika v2.1
+WAITING          Pika v2.1 [I2V]
+WAITING          Pixverse c1 (Reference to Video)
+WAITING          Pixverse v5 (Effects)
+WAITING          Qwen 3 TTS : 0.6B (Speech)
+WAITING          Qwen 3 TTS : 1.7B (Speech)
+WAITING          RealESRGAN (Upscale)
+WAITING          Recraft v4 (Style)
+WAITING          Recraft v4 (Vector : Style)
+WAITING          Recraft v4 [Pro] (Style)
+WAITING          Recraft v4 [Pro] Vector (Style)
+WAITING          Rife
+WAITING          Rife [V2V]
+WAITING          Runway Gen-4 - Aleph
+WAITING          SAM 2 (Seg)
+WAITING          Sam 3 (3d Objects)
+WAITING          SAM 3 [V2V]
+WAITING          SDXL & SD (Inpaint)
+WAITING          Sensenova u1 - Infographic
+WAITING          Smart Resize
+WAITING          Sora v2
+WAITING          Sora v2 (Characters)
+WAITING          Sora v2 [Pro] [I2V]
+WAITING          Sync Lipsync - React 1
+WAITING          Sync Lipsync v2
+WAITING          Sync Lipsync v3
+WAITING          Topaz (Adjust)
+WAITING          Topaz (Colorize)
+WAITING          Topaz (Deblur)
+WAITING          Topaz (Denoise)
+WAITING          Topaz (Denoise) [V2V]
+WAITING          Topaz (Interpolate)
+WAITING          Topaz (Restore)
+WAITING          Topaz (SDR to HDR)
+WAITING          Topaz (Sharpen)
+WAITING          Topaz (Upscale : Creative)
+WAITING          Topaz (Upscale : Creative) [V2V]
+WAITING          Topaz (Upscale : Generative)
+WAITING          Topaz (Upscale : Generative) [V2V]
+WAITING          Topaz (Upscale : Precision)
+WAITING          Topaz (Upscale : Precision) [V2V]
+WAITING          Topaz (Upscale : Transparent)
+WAITING          Trellis v2 (LoRA)
+WAITING          Veed - Subtitles
+WAITING          Vidu Q2 Pro (Reference)
+WAITING          Wan v2.7 [I2V]
+WAITING          Wan v3.0
+WAITING          Wan v3.0 (Reference)
+WAITING          Wan v3.0 [I2V]
+WAITING          Wan v3.0 [Prime]
+WAITING          Wan v3.0 [Prime] (Reference)
+WAITING          Wan v3.0 [Prime] [I2V]
+WAITING          Wan Vace Apps (Long Reframe)
+WAITING          Workflow Utilities (Auto-subtitle)
+WAITING          Workflow Utilities (Blend Video)
+WAITING          Workflow Utilities (Trim Video)
+WAITING          XAI - Grok Imagine v2.0
+WAITING          XAI - Grok Imagine v2.0 (Edit)
+
+CLAUDE THIS RUN: asked 1 (digest (no answer)) — 0 answered via no route. The rest: the run was stopped — nothing was asked.
