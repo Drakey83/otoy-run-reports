@@ -1,0 +1,112 @@
+OTOY Automation — Run Log
+================================================================
+Environment:  dev
+Started:      2026-09-02T18:14:40.345488
+Result:       40 passed, 1 failed of 41
+================================================================
+
+THE RUN, IN PLAIN ENGLISH
+-------------------------
+Quick QA update from dev: 40 of 41 models passed, so just one miss, and that one was the
+app's own doing — Bytedance - Seed Audio v1.0. On the split over rollable landings, we
+landed at 82% platform / 17% local, against a rule of 75/25. Solid run overall.
+FAILED           Bytedance - Seed Audio v1.0 · 5.4s
+                 It looks like you've tried to combine image and audio references, but
+                 they can't be used together. Please try using only image or only audio
+                 references.
+SUCCESS          Bitdance · 540.8s
+SUCCESS          Bytedance - Bagel 7B (Edit) · 35.9s
+SUCCESS          Bytedance - Dreamactor v2 · 143.7s
+SUCCESS          Bytedance - Dreamina v3.1 · 36.0s
+SUCCESS          Bytedance - Lynx · 1171.2s
+SUCCESS          Bytedance - Seed Speech TTS v2 · 5.3s
+SUCCESS          Bytedance - Seedance v1 [Pro] · 60.8s
+SUCCESS          Bytedance - Seedance v1 [Pro] [I2V] · 60.9s
+SUCCESS          Bytedance - Seedance v1 [Pro] Fast · 65.9s
+SUCCESS          Bytedance - Seedance v1 [Pro] Fast [I2V] · 65.9s
+SUCCESS          Bytedance - Seedance v1.5 [Pro] · 65.9s
+SUCCESS          Bytedance - Seedance v1.5 [Pro] [I2V] · 55.8s
+SUCCESS          Bytedance - Seedance v2.5 · 192.0s
+SUCCESS          Bytedance - Seedance v2.5 [I2V] · 253.7s
+SUCCESS          Bytedance - Seedream v4 · 10.3s
+SUCCESS          Bytedance - Seedream v4 (Edit) · 35.8s
+SUCCESS          Bytedance - Seedream v4.5 · 15.3s
+SUCCESS          Bytedance - Seedream v4.5 (Edit) · 32.2s
+SUCCESS          Bytedance - Seedream v5 Lite · 25.5s
+SUCCESS          Bytedance - Seedream v5 Lite (Edit) · 40.9s
+SUCCESS          Bytedance - Seedream v5 Lite (Edit) [I2I] · 66.0s
+SUCCESS          Bytedance - Seedream v5 Pro · 55.7s
+SUCCESS          ByteDance - SeedVR (Upscale) · 21.2s
+SUCCESS          ByteDance - SeedVR (Upscale) [V2V] · 248.7s
+SUCCESS          Bytedance - Upscaler · 314.6s
+SUCCESS          Veo 2 · 35.5s
+SUCCESS          Veo 2 [I2V] · 35.5s
+SUCCESS          Veo 3.1 · 116.2s
+SUCCESS          Veo 3.1 (Fast : First-Last-Frame) · 127.2s
+SUCCESS          Veo 3.1 (Fast : Reference) · 40.6s
+SUCCESS          Veo 3.1 (Fast) · 146.5s
+SUCCESS          Veo 3.1 (Fast) [I2V] · 132.4s
+SUCCESS          Veo 3.1 (First-Last-Frame) · 93.1s
+SUCCESS          Veo 3.1 (Reference) · 107.9s
+SUCCESS          Veo 3.1 [I2V] · 66.0s
+SUCCESS          Veo 3.1 [Lite] · 70.8s
+SUCCESS          Veo 3.1 [Lite] [I2V] · 91.7s
+SUCCESS          Veo 3.1 [Lite] First-Last-Frame · 56.9s
+SUCCESS          Veo3.1 (Extend) · 96.3s
+SUCCESS          Veo3.1 (Fast : Extend) · 71.2s
+
+WHAT THE SITE SAID
+------------------
+Every distinct message from the site this run, including on models the app got past.
+
+Bytedance - Seed Audio v1.0 — still failing
+      It looks like you've tried to combine image and audio references, but they can't
+      be used together. Please try using only image or only audio references. · attempt
+      1/3 — will retry
+ByteDance - SeedVR (Upscale) [V2V], Veo 3.1 [Lite] [I2V] — recovered on retry
+      There was an error during file processing: Failed to download the file. Please
+      check if the URL is accessible and try again. · attempt 1/3 — will retry
+Bytedance - Seedance v1.5 [Pro] [I2V] — recovered on retry
+      There was an error during file processing: Failed to load the image. Please ensure
+      the image file is not corrupted and is in a supported format. · attempt 1/3 — will
+      retry
+Veo 3.1 [Lite] [I2V] — recovered on retry
+      Could not click Create button — every required field is filled and the site gave
+      no reason on the page · the form held — Auto Fix:EMPTY; Image File:EM
+Veo 3.1 [Lite] First-Last-Frame — recovered on retry
+      The duration you provided isn't in the correct format. Please ensure it's in
+      seconds, like '8s'. · attempt 1/3 — will retry
+Veo 3.1 [Lite] [I2V] — recovered on retry
+      No matching job ever appeared in the account queue — the job likely never actually
+      started
+
+MEDIA SOURCE CENSUS — every landing, reported by the code that landed it
+  platform: 24   local pool: 5   curated (never rolls): 13
+  split over rollable landings: 82% platform / 17% local  (rule: 75/25)
+  Bytedance - Bagel 7B (Edit): rolled platform -> image=platform(dialog pick)
+  Bytedance - Dreamactor v2: rolled local -> image=local(25% roll), video=local(25% roll)
+  Bytedance - Lynx: rolled ? -> image=curated(pool routing)
+  Bytedance - Seed Audio v1.0: rolled platform -> image=platform(dialog pick), audio=curated(pool routing), image=platform(url-mode), image=platform(dialog pick)
+  Bytedance - Seedance v1 [Pro] [I2V]: rolled platform -> image=platform(dialog pick)
+  Bytedance - Seedance v1 [Pro] Fast [I2V]: rolled platform -> video=platform(dialog pick), image=platform(dialog pick)
+  Bytedance - Seedance v1.5 [Pro] [I2V]: rolled platform -> image=platform(dialog pick), image=platform(dialog pick)
+  Bytedance - Seedance v2.5 [I2V]: rolled ? -> video=platform(dialog pick)
+  Bytedance - Seedream v4 (Edit): rolled platform -> image=platform(dialog pick)
+  Bytedance - Seedream v4.5 (Edit): rolled local -> image=local(25% roll)
+  Bytedance - Seedream v5 Lite (Edit) [I2I]: rolled platform -> image=platform(dialog pick)
+  ByteDance - SeedVR (Upscale): rolled platform -> image=platform(dialog pick)
+  ByteDance - SeedVR (Upscale) [V2V]: rolled platform -> video=platform(populate url), video=platform(populate url)
+  Bytedance - Upscaler: rolled platform -> video=platform(dialog pick)
+  Veo 2 [I2V]: rolled platform -> image=platform(url-mode)
+  Veo 3.1 (Fast : First-Last-Frame): rolled ? -> image=curated(frame pair), image=curated(frame pair)
+  Veo 3.1 (Fast : Reference): rolled platform -> image=platform(dialog pick), image=platform(url-mode)
+  Veo 3.1 (Fast) [I2V]: rolled local -> image=local(25% roll)
+  Veo 3.1 (First-Last-Frame): rolled platform -> image=curated(frame pair), image=curated(frame pair), image=platform(populate url)
+  Veo 3.1 (Reference): rolled ? -> image=curated(pool routing), image=curated(pool routing)
+  Veo 3.1 [I2V]: rolled platform -> image=platform(dialog pick)
+  Veo 3.1 [Lite] [I2V]: rolled platform -> image=platform(dialog pick), image=platform(dialog pick), image=curated(pool routing)
+  Veo 3.1 [Lite] First-Last-Frame: rolled ? -> image=curated(frame pair), image=curated(frame pair), image=curated(frame pair), image=curated(frame pair)
+  Veo3.1 (Extend): rolled platform -> video=platform(label-aimed url)
+  Veo3.1 (Fast : Extend): rolled local -> video=local(25% roll)
+
+CLAUDE THIS RUN: asked 6 (self-heal, self-heal, self-heal, self-heal, self-heal, digest) — 6 answered via the claude command.
