@@ -1,0 +1,287 @@
+==============================================================================
+OTOY AUTOMATION — WHAT FAILED
+==============================================================================
+Environment:  dev
+Run started:  2026-09-01T20:17:42.165556
+Models tried: 162      Failed: 63
+  the app's: 31      the website's: 5      an account limit: 0      nothing decided: 27
+
+==============================================================================
+THE APP'S FAULT — 31
+==============================================================================
+Nothing to send. This is the list to hand back to whoever maintains the app.
+
+  AI Avatar (multi-text)
+      There was an error during file processing: Audio is too short (4.00s) for the
+      requested num_frames. The audio must be at least 9.48s long. Either provide a
+      longer audio file or reduce num_frames.
+  Argil - Avatars
+      The AI took too long to generate a response. Please try again or simplify your
+      request.
+  Auto caption
+      The font could not be downloaded. Please provide a valid font path.
+  Bria - Eraser (Text)
+      No matching job ever appeared in the account queue — the job likely never actually
+      started
+  Bria - Fibo Edit v1.5
+      There was an error during file processing: body: Value error, A reference image is
+      required: pass image_url, or image_urls with 1-4 images.
+  Bria - Fibo Gen v1.5
+      The color scheme you entered isn't valid. Please ensure it's a standard color name
+      or a hexadecimal code (e.g., "blue" or "#0000FF").
+  Bria - Product Dimensions
+      The media you uploaded isn't supported. Please try a different type of media.
+  Bytedance - Seed Audio v1.0
+      You can't use image and audio references together in your request. Please choose
+      either images or audio.
+  Chrono Edit (LoRA : Upscaler)
+      The image created would be too large (over 2048 pixels on a side). Please use a
+      smaller upscale factor or a smaller starting image.
+  Clarity Ai - Crystal Upscaler [V2V]
+      The scale factor for your video is too high. Please try a lower value, as the
+      maximum supported resolution is 5K.
+  Decart - Lucy2 VTON (Realtime)
+      Could not click Create button — every required field is filled and the site gave
+      no reason on the page · the form held — Image File:EMPTY; Reference Image
+      File:EMPTY; Prompt:set
+  Deep Filter Net 3
+      The audio bitrate you provided, 128kbps, is not a valid format. Please use a
+      supported bitrate.
+  F5 TTS (Speech)
+      The text you entered is too long. Please shorten your text and try again.
+  FlashVSR (Upscale)
+      The upscale factor you entered is too high. Please try a smaller value.
+  Half Moon AI (Edit)
+      We couldn't find what you were looking for. Please check the information you
+      entered and try again.
+  Half Moon AI (Face Swap : Multi)
+      We couldn't find what you were looking for. Please check the information you
+      entered and try again.
+  Half Moon AI (Face Swap : Multi) [V2V]
+      We couldn't find what you were looking for. Please check the information you
+      entered and try again.
+  Half Moon AI (Style)
+      Server rejected generation: Invalid form configurationValidation failed for field
+      "Input Image Url"
+  Ideogram v3 (Layerize Text)
+      Create stayed disabled — the form still wants: Font File H2 Url, Font File Body
+      Url, Font File Small Url
+  Lightx Relight
+      The reference ID you provided is too long. Please ensure it is 48 characters or
+      less.
+  Mirage - Avatar X
+      Could not click Create button — every required field is filled and the site gave
+      no reason on the page · the form held — Video reference:EMPTY; Voice
+      reference:EMPTY; Prompt:set; Script:set
+  Mirage - Avatar X (Reference)
+      Some of the information you provided (end_user_id, environment, or prompt)
+      contained extra inputs that are not allowed. Please remove any additional
+      information in these fields and try again.
+  Otoy Studio Ltx 2 Extend Video
+      No matching job ever appeared in the account queue — the job likely never actually
+      started
+  Recraft v4 [Pro] Vector (Style)
+      The style ID you provided is invalid. Please ensure it is a valid UUID, such as
+      123e4567-e89b-12d3-a456-426614174000.
+  Sam 3 (3d Objects)
+      We couldn't detect any objects in your image. Try a different prompt, provide mask
+      URLs, or lower the detection threshold.
+  Sync Lipsync v3
+      The sync mode must be one of the following: 'cut_off', 'loop', 'bounce',
+      'silence', or 'remap'. · we could not work out which control the site wanted
+      turned on, from the message or from this form's own controls
+  Topaz (Upscale : Generative) [V2V]
+      Could not click Create button — every required field is filled and the site gave
+      no reason on the page · the form held — H264 Output:EMPTY; Video File:EMPTY;
+      Prompt:set; Softness:set; Target Fps:set; Upscale Factor:set
+  Trellis v2 (LoRA)
+      There was an error during file processing: Provide at least one TRELLIS.2 LoRA
+      checkpoint URL for sparse structure, geometry, or texture.
+  Veed - Subtitles
+      No matching job ever appeared in the account queue — the job likely never actually
+      started
+  Wan v2.7 [I2V]
+      There was an error during file processing: Value error, Input must be a valid
+      HTTPS URL or a Data URI, body.end_image_url: Value error, Input must be a valid
+      HTTPS URL or a Data URI, body.video_url: Value error, Input must be a valid HTTPS
+      URL or a Data URI, body.audio_url: Value error, Input must be a valid HTTPS URL or
+      a Data URI · we could not tell which control the site meant - it mentions useurl,
+      useurl, useurl, useurl, and none of them is on while another is off
+  Workflow Utilities (Blend Video)
+      There was an error during file processing: Unsupported video format. Supported
+      formats are .mp4, .mov.
+
+==============================================================================
+THE WEBSITE'S FAULT — 5
+==============================================================================
+Written up one at a time below, with the reasoning for each.
+
+  Bria - Fibo (Edit)
+      Something went wrong on our end. Please try again later.
+  Bria - Fibo BBQ (Preview)
+      Something went wrong on our end. Please try again later.
+  Omni Zero
+      Something went wrong on our end. Please try again later.
+  OmniPart
+      Something went wrong on our end. Please try again later.
+  Topaz (Colorize)
+      We're experiencing technical difficulties and cannot process your request at the
+      moment. Please try again later.
+
+==============================================================================
+NOTHING DECIDED THESE — 27
+==============================================================================
+Here because no rule settled them, not as a guess. A message nothing recognises is the interesting kind.
+
+  Beatoven Music
+      The content generation timed out. Please try again.
+  Beatoven SFX
+      The content generation timed out. Please try again.
+  Bria Video (Erase)
+      We couldn't detect any recognizable objects based on your prompt. Please try again
+      with a more descriptive prompt.
+  Decart - Lucy 2.5 (Realtime)
+      The requested page or resource could not be found. Please check the address and
+      try again.
+  FLUX 3 (Draft Enhance)
+      There was an error during file processing: Failed to download the file. Please
+      check if the URL is accessible and try again.
+  FLUX.2 [klein] Realtime
+      The requested page or resource could not be found. Please check the address and
+      try again.
+  Hi3D
+      There was an error during file processing: Value error, resolution '1536fast' is
+      not supported by model 'hitem3dv2.0'; supported values: 512, 1024, 1536, 1536pro
+  Hi3D (Multi-view)
+      There was an error during file processing: Input should be '512', '1024', '1536',
+      '1536pro', '1536fast' or '1536profast'
+  LTX 2 (Fast)
+      We're sorry, but we encountered an unexpected issue with our service. Please try
+      again in a moment.
+  LTX 2 (Fast) [I2V]
+      We're sorry, but we encountered an unexpected issue with our service. Please try
+      again in a moment.
+  LTX 2 Retake
+      Server rejected generation: Failed to generateWe're sorry, but we encountered an
+      unexpected issue with our service. Please try again in a moment.
+  LTX v2
+      We're sorry, but we encountered an unexpected issue with our service. Please try
+      again in a moment.
+  LTX v2 (Fast)
+      We're sorry, but we encountered an unexpected issue with our service. Please try
+      again in a moment.
+  LTX v2 : 19B (Extend Video : LoRA)
+      There was an error during file processing: Field required
+  LTX v2 [I2V]
+      We're sorry, but we encountered an unexpected issue with our service. Please try
+      again in a moment.
+  Lightx Recamera
+      When using the 'target' camera, you must also provide a 'target_pose'.
+  Mirelo Ai - SFX v1.6 (Inpaint Audio)
+      Server rejected generation: Invalid form configurationValidation failed for field
+      "AudioSegmentSpec"
+  Pika v2 (Turbo)
+      We're sorry, but we encountered an unexpected issue with our service. Please try
+      again in a moment.
+  Pika v2 (Turbo) [I2V]
+      We're sorry, but we encountered an unexpected issue with our service. Please try
+      again in a moment.
+  Pika v2.1
+      We're sorry, but we encountered an unexpected issue with our service. Please try
+      again in a moment.
+  Pika v2.1 [I2V]
+      We're sorry, but we encountered an unexpected issue with our service. Please try
+      again in a moment.
+  Qwen 3 TTS : 0.6B (Speech)
+      There was an error during file processing: Failed to load the speaker embedding.
+      Please ensure the file is not corrupted, is in safetensors format..
+  Qwen 3 TTS : 1.7B (Speech)
+      There was an error during file processing: Failed to load the speaker embedding.
+      Please ensure the file is not corrupted, is in safetensors format..
+  Recraft v4 (Style)
+      The style ID provided is not in a valid format. Please ensure it is a properly
+      structured identifier.
+  Recraft v4 (Vector : Style)
+      The style ID provided is not in a valid format. Please ensure it is a properly
+      structured identifier.
+  Recraft v4 [Pro] (Style)
+      The style ID provided is not in a valid format. Please ensure it is a properly
+      structured identifier.
+  Sync Lipsync v2
+      The sync mode must be one of the following: 'cut_off', 'loop', 'bounce',
+      'silence', or 'remap'.
+
+==============================================================================
+THE WEBSITE'S BUGS, WRITTEN UP
+==============================================================================
+>>> THE SITE SAYS IT IS: Dev build {dev-ssm_v3.17.8} Sep 1, 2026
+>>> Read from the site's own footer during the run, and repeated at the bottom of
+>>> every ticket below. It is the first thing the web team asks for.
+
+2 distinct problem(s) across 5 model(s).
+
+##############################################################################
+WEBSITE BUG 1 of 2
+##############################################################################
+WHY THIS LOOKS LIKE THE WEBSITE'S:
+  the site refused in its own words, naming nothing about our request.
+
+------------------------------------------------------------------------------
+TITLE: Topaz (Colorize) fails to generate — site returns "We're experiencing technical difficulties and cannot process…"
+
+SUMMARY:
+  Topaz (Colorize) failed to generate on dev.
+  The site returned: "We're experiencing technical difficulties and cannot process your request at the moment. Please try again later.".
+  Recorded in this run: failed after 161s.
+
+EXPECTED:
+  The model produces a generation.
+
+ACTUAL:
+  The generation fails and the site returns "We're experiencing technical difficulties and cannot process your request at the moment. Please try again later."
+
+DEV BUILD NUMBER:
+  Dev build {dev-ssm_v3.17.8} Sep 1, 2026
+
+SCREEN RECORDING:
+  C:\Users\reidc\AppData\Local\Programs\OTOY Automation\test-results\bug_clips\clip_Topaz-Colorize.mp4
+  (the settings being filled in, then straight to the failure — the waiting is cut out)
+
+##############################################################################
+WEBSITE BUG 2 of 2
+##############################################################################
+WHY THIS LOOKS LIKE THE WEBSITE'S:
+  the site refused in its own words, naming nothing about our request.
+  The same refusal on 4 models, which points at something they share rather than
+  at any one model's own configuration.
+
+------------------------------------------------------------------------------
+TITLE: 4 models fail to generate — site returns "Something went wrong on our end"
+
+SUMMARY:
+  Bria - Fibo (Edit), Bria - Fibo BBQ (Preview), Omni Zero, OmniPart failed to generate on dev.
+  The site returned: "Something went wrong on our end. Please try again later.".
+  Recorded in this run: each failed after 5–73s.
+
+EXPECTED:
+  The model produces a generation.
+
+ACTUAL:
+  The generation fails and the site returns "Something went wrong on our end. Please try again later."
+
+DEV BUILD NUMBER:
+  Dev build {dev-ssm_v3.17.8} Sep 1, 2026
+
+SCREEN RECORDING:
+  C:\Users\reidc\AppData\Local\Programs\OTOY Automation\test-results\bug_clips\clip_OmniPart.mp4
+  (the settings being filled in, then straight to the failure — the waiting is cut out)
+
+==============================================================================
+WHAT CLAUDE MADE OF IT — a suggestion, not a verdict
+==============================================================================
+Claude was asked and returned nothing.
+Everything above still stands — it is all produced by the app's own rules.
+
+==============================================================================
+Everything above the Claude section is written by the app from this run's
+own records — every line traces to something the run or the site reported.
