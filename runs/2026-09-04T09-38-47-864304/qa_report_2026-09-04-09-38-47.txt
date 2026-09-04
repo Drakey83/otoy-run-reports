@@ -1,0 +1,2 @@
+OTOY AUTOMATION — the failure write-up could not be built (list index out of range).
+The run itself is unaffected; the run log holds everything this would have read.
