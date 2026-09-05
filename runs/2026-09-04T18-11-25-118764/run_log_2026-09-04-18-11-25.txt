@@ -1,0 +1,351 @@
+OTOY Automation — Run Log
+================================================================
+Environment:  dev
+Started:      2026-09-04T18:11:25.118764
+Result:       10 passed, 27 failed of 40
+================================================================
+
+THE RUN, IN PLAIN ENGLISH
+-------------------------
+On dev, 10 of 40 models passed. Two of the failures look like the website's own —
+OmniPart and Veed - Subtitles — while 11 were the app's own doing, including Bytedance -
+Seed Audio v1.0, Bria - Fibo Gen v1.5, and Recraft v4 (Style). That leaves 14 that still
+need a look. The split over rollable landings came out to 89% platform and 10% local,
+against a rule of 75/25.
+FAILED           Bria - Fibo Gen v1.5 · 5.6s
+                 The color scheme you entered isn't valid. Please ensure it's a
+                 recognized color name or code.
+FAILED           Bytedance - Seed Audio v1.0 · 0.4s
+                 It looks like you've tried to combine image and audio references, but
+                 they can't be used together. Please try using only image or only audio
+                 references.
+FAILED           Decart - Lucy 2.5 (Realtime) · 5.4s
+                 We couldn't find the requested information or page. Please check the
+                 address and try again.
+FAILED           FLUX 3 (Draft Enhance) · 10.8s
+                 Generation failed (reported by the account job queue)
+FAILED           FLUX.2 [klein] Realtime · 5.4s
+                 We couldn't find the requested information or page. Please check the
+                 address and try again.
+FAILED           LTX 2.3 : 22B (Extend : LoRA) · 5.4s
+                 The LoRA path provided is invalid. Please ensure it's a valid URL or a
+                 Hugging Face repository.
+FAILED           LTX 2.3 : 22B (LoRA) · 5.4s
+                 The LoRA you provided could not be found. Please ensure it is a valid
+                 URL or HuggingFace repository link.
+FAILED           LTX 2.3 : 22B (LoRA) [I2V] · 6.4s
+                 The LoRA you provided could not be processed. Please ensure it is a
+                 valid URL or a HuggingFace repository.
+FAILED           LTX 2.3 : 22B (LoRA) [V2V] · 94.4s
+                 The LoRA path "Transform the lighting to deep blue pre-dawn ambience"
+                 is invalid. Please provide a valid URL or HuggingFace repository path.
+FAILED           LTX 2.3 : 22B [Distilled] LoRA · 15.3s
+                 The LoRA path is invalid. It must be a valid URL or a Hugging Face
+                 repository.
+FAILED           LTX 2.3 : 22B [Distilled] LoRA [I2V] · 60.8s
+                 We couldn't access the LoRA. Please ensure it's provided as a valid URL
+                 or a HuggingFace repository.
+FAILED           LTX 2.3 : 22B [Distilled] LoRA [V2V] · 10.5s
+                 There was an error during file processing: Failed to download the file.
+                 Please check if the URL is accessible and try again.
+FAILED           Meshy v7 · 5.6s
+                 Ultra mode is not available with the current model type. Please switch
+                 to a standard generation model to use ultra mode.
+FAILED           Minimax H3 (Reference : LoRA) · 5.4s
+                 We couldn't load the LoRA. Please provide a valid HTTP/HTTPS URL or a
+                 Hugging Face owner/repo ID.
+FAILED           Mirage - Avatar X · 5.6s
+                 Please ensure your request only includes the allowed inputs for
+                 'body.end_user_id', 'body.environment', and 'body.prompt'. No extra
+                 information is permitted.
+FAILED           Mirage - Avatar X (Reference) · 6.6s
+                 Please ensure your request only includes the allowed inputs for
+                 'body.end_user_id', 'body.environment', and 'body.prompt'. No extra
+                 information is permitted.
+FAILED           OmniPart · 6.1s
+                 Something went wrong on our end. Please try again in a moment.
+FAILED           Pixelcut - Background Removal · 5.5s
+                 The selected video format doesn't support transparency. Please choose a
+                 format like WebM, ProRes, or GIF for transparent backgrounds.
+FAILED           Recraft v4 (Style) · 44.6s
+                 Server rejected generation: Invalid form configurationValidation failed
+                 for field "Image URLs" Validation failed for field "Image URLs"
+                 Validation failed for field "Image URLs"
+FAILED           Recraft v4 (Vector : Style) · 13.9s
+                 Server rejected generation: Invalid form configurationValidation failed
+                 for field "Image URLs" Validation failed for field "Image URLs"
+                 Validation fai
+FAILED           Recraft v4 [Pro] (Style) · 12.2s
+                 Server rejected generation: Invalid form configurationValidation failed
+                 for field "Image URLs" Validation failed for field "Image URLs"
+                 Validation failed for field "Image URLs"
+FAILED           Recraft v4 [Pro] Vector (Style) · 14.8s
+                 Server rejected generation: Invalid form configurationValidation failed
+                 for field "Image URLs" Validation failed for field "Image URLs"
+                 Validation failed for field "Image URLs"
+FAILED           Reve v2.1 · 5.3s
+                 We're experiencing a technical issue on our end. Please try again in a
+                 moment.
+FAILED           Reve v2.1 (Edit) · 7.1s
+                 Server rejected generation: Failed to generateWe're experiencing a
+                 technical issue on our end. Please try again in a moment.
+FAILED           Reve v2.1 (Remix) · 5.4s
+                 We're experiencing a technical issue on our end. Please try again in a
+                 moment.
+FAILED           Trellis v2 (LoRA) · 7.5s
+                 There was an error during file processing: Provide at least one
+                 TRELLIS.2 LoRA checkpoint URL for sparse structure, geometry, or
+                 texture.
+FAILED           Veed - Subtitles
+                 No matching job ever appeared in the account queue — but a generation
+                 request WAS seen leaving the browser -2s in, so the site received it
+                 and queued nothing
+SUCCESS          FLUX 3 (Extend Video) · 239.1s
+SUCCESS          Hi3D · 657.8s
+SUCCESS          LTX 2.3 : 22B (Extend) · 284.6s
+SUCCESS          LTX 2.5 [Fast] [I2V] · 37.6s
+SUCCESS          Microsoft - MAi image v2.5 [Pro] · 111.8s
+SUCCESS          Microsoft - MAi image v2.5 [Pro] Edit · 235.1s
+SUCCESS          Nano Banana Lite (Edit) · 21.1s
+SUCCESS          Scail v2 · 517.2s
+SUCCESS          Sonilo v1.1 · 20.4s
+SUCCESS          Sonilo v1.1(V2V Music) · 20.9s
+WAITING          LTX v2.3 - [Quality] Inpaint LoRA
+                 Attempt 1 failed — will retry later: Create stayed disabled — required
+                 field(s) not filled: LoRAs (its shape is not i
+WAITING          Minimax H3 (LoRA)
+                 Attempt 1 failed — will retry later: Create stayed disabled — required
+                 field(s) not filled: Loras (its shape is not i
+WAITING          Pixelcut - Product Photo
+                 Attempt 1 failed — will retry later: Could not click Create button —
+                 every required field is filled and the site gave
+
+WHAT THE SITE SAID
+------------------
+Every distinct message from the site this run, including on models the app got past.
+
+Recraft v4 (Style), Recraft v4 (Vector : Style), Recraft v4 [Pro] (Style), Recraft v4 [Pro] Vector (Style) — still failing
+      Server rejected generation: Invalid form configurationValidation failed for field
+      "Image URLs" Validation failed for field "Image URLs" Validation fai
+FLUX 3 (Draft Enhance), FLUX 3 (Extend Video), LTX 2.3 : 22B [Distilled] LoRA [V2V] — 2 still failing, 1 recovered
+      There was an error during file processing: Failed to download the file. Please
+      check if the URL is accessible and try again. · attempt 1/3 — will retry
+Recraft v4 (Style), Recraft v4 [Pro] Vector (Style) — still failing
+      The style ID you provided is not in a valid format. Please ensure it is a valid
+      UUID version 4. · attempt 1/3 — will retry
+Recraft v4 (Vector : Style), Recraft v4 [Pro] (Style) — still failing
+      The style identifier you provided is not valid. Please ensure it is in the correct
+      format. · attempt 1/3 — will retry
+Mirage - Avatar X, Mirage - Avatar X (Reference) — still failing
+      Please ensure your request only includes the allowed inputs for
+      'body.end_user_id', 'body.environment', and 'body.prompt'. No extra information is
+      permitted. · attempt 1/3 — will retry
+Decart - Lucy 2.5 (Realtime), FLUX.2 [klein] Realtime — still failing
+      We couldn't find the requested information or page. Please check the address and
+      try again. · attempt 1/3 — will retry
+Decart - Lucy 2.5 (Realtime), FLUX.2 [klein] Realtime — still failing
+      We couldn't find the requested information or page. Please check the address and
+      try again. · attempt 2/3 — will retry
+Decart - Lucy 2.5 (Realtime), FLUX.2 [klein] Realtime — still failing
+      We couldn't find the requested information or page. Please check the address and
+      try again.
+Reve v2.1, Reve v2.1 (Edit) — still failing
+      We're experiencing a technical issue on our end. Please try again in a moment. ·
+      attempt 1/3 — will retry
+LTX 2.3 : 22B [Distilled] LoRA [I2V], Reve v2.1 (Remix) — still failing
+      There was an error during file processing: The provided image URL is not
+      accessible or has expired. Please ensure the URL is valid and publicly
+      accessible., body.input.image_urls[0]: The provided image URL is not accessible or
+      has expired. Please ensure the URL is valid and publicly accessible.,
+      body.input.image_urls[1]: The provided image URL is not accessible or has expired.
+      Please ensure the URL is valid and publicly accessible. · attempt 1/3 — will retry
+Reve v2.1, Reve v2.1 (Remix) — still failing
+      We're experiencing a technical issue on our end. Please try again in a moment. ·
+      attempt 2/3 — will retry
+Reve v2.1, Reve v2.1 (Remix) — still failing
+      We're experiencing a technical issue on our end. Please try again in a moment.
+LTX 2.3 : 22B [Distilled] LoRA [I2V], LTX v2.3 - [Quality] Inpaint LoRA, Minimax H3 (LoRA) — 1 still failing, 2 recovered
+      Create stayed disabled — required field(s) not filled: Loras (its shape is not in
+      anything the site publishes — the schema points at a definition the
+Bytedance - Seed Audio v1.0 — still failing
+      It looks like you've tried to combine image and audio references, but they can't
+      be used together. Please try using only image or only audio references. · attempt
+      1/3 — will retry
+Bria - Fibo Gen v1.5 — still failing
+      The color scheme you entered isn't valid. Please ensure it's a recognized color
+      name or code. · attempt 1/3 — will retry
+Bria - Fibo Gen v1.5 — still failing
+      The color scheme you entered isn't valid. Please ensure it's a recognized color
+      name or code. · attempt 2/3 — will retry
+Recraft v4 (Style) — still failing
+      The style ID you provided is not in a valid format. Please ensure it is a valid
+      UUID version 4. · attempt 2/3 — will retry
+Bria - Fibo Gen v1.5 — still failing
+      The color scheme you entered isn't valid. Please ensure it's a recognized color
+      name or code.
+Recraft v4 [Pro] (Style) — still failing
+      The style identifier you provided is not valid. Please ensure it is in the correct
+      format. · attempt 2/3 — will retry
+Minimax H3 (Reference : LoRA) — still failing
+      The LoRA path provided is invalid. Please ensure it is a valid HTTP(S) URL or a
+      Hugging Face owner/repo ID. · attempt 1/3 — will retry
+Minimax H3 (Reference : LoRA) — still failing
+      The LoRA could not be loaded because the path provided was invalid. Please use a
+      valid Hugging Face ID or an HTTP(S) URL. · attempt 2/3 — will retry
+Meshy v7 — still failing
+      The requested model type "lowpoly" is not supported for meshy-7. Please choose a
+      different model type. · attempt 1/3 — will retry
+Minimax H3 (Reference : LoRA) — still failing
+      We couldn't load the LoRA. Please provide a valid HTTP/HTTPS URL or a Hugging Face
+      owner/repo ID.
+Meshy v7 — still failing
+      The requested model type "lowpoly" is not supported for meshy-7. Please choose a
+      different model type. · attempt 2/3 — will retry
+Meshy v7 — still failing
+      Ultra mode is not available with the current model type. Please switch to a
+      standard generation model to use ultra mode.
+FLUX 3 (Draft Enhance) — still failing
+      Generation failed (reported by the account job queue)
+Trellis v2 (LoRA) — still failing
+      There was an error during file processing: Provide at least one TRELLIS.2 LoRA
+      checkpoint URL for sparse structure, geometry, or texture. · attempt 1/3 — will
+      retry
+OmniPart — still failing
+      Something went wrong on our end. Please try again in a moment. · attempt 1/3 —
+      will retry
+Veed - Subtitles — still failing
+      No matching job ever appeared in the account queue — but a generation request WAS
+      seen leaving the browser -20s in, so the site received it and queued nothing
+OmniPart — still failing
+      Something went wrong on our end. Please try again in a moment. · attempt 2/3 —
+      will retry
+LTX 2.3 : 22B (Extend : LoRA) — still failing
+      We couldn't process the LoRA due to an invalid path. Please ensure you are
+      providing a valid URL or HuggingFace repository. · attempt 1/3 — will retry
+Veed - Subtitles — still failing
+      No matching job ever appeared in the account queue — but a generation request WAS
+      seen leaving the browser -12s in, so the site received it and queued nothing
+OmniPart — still failing
+      Something went wrong on our end. Please try again in a moment.
+LTX 2.3 : 22B (Extend : LoRA) — still failing
+      The LoRA path provided is invalid. Please ensure it's a valid URL or a Hugging
+      Face repository. · attempt 2/3 — will retry
+LTX 2.3 : 22B (LoRA) — still failing
+      The LoRA path provided is invalid. Please use a URL or a HuggingFace repository. ·
+      attempt 1/3 — will retry
+LTX 2.3 : 22B (LoRA) [I2V] — still failing
+      The LoRA reference "Add subtle motion to the mountain lake photo: mirror-calm wa"
+      is invalid. Please use a valid URL or HuggingFace repository path. · attempt 1/3 —
+      will retry
+Veed - Subtitles — still failing
+      No matching job ever appeared in the account queue — but a generation request WAS
+      seen leaving the browser -2s in, so the site received it and queued nothing
+LTX 2.3 : 22B (Extend : LoRA) — still failing
+      The LoRA path provided is invalid. Please ensure it's a valid URL or a Hugging
+      Face repository.
+LTX 2.3 : 22B (LoRA) — still failing
+      We couldn't access the LoRA. Please ensure it's a valid URL or HuggingFace
+      repository link. · attempt 2/3 — will retry
+LTX 2.3 : 22B (LoRA) [V2V] — still failing
+      The LoRA path provided is invalid. Please ensure it's a valid URL or a Hugging
+      Face repository. · attempt 1/3 — will retry
+LTX 2.3 : 22B (LoRA) [I2V] — still failing
+      The LoRA path provided is not valid. It must be a URL or a HuggingFace repository.
+      · attempt 2/3 — will retry
+LTX 2.3 : 22B (LoRA) — still failing
+      The LoRA you provided could not be found. Please ensure it is a valid URL or
+      HuggingFace repository link.
+LTX 2.3 : 22B [Distilled] LoRA — still failing
+      The LoRA path provided is invalid. Please ensure it is a URL or a HuggingFace
+      repository. · attempt 1/3 — will retry
+LTX 2.3 : 22B (LoRA) [V2V] — still failing
+      The LoRA path must be a valid URL or HuggingFace repository. · attempt 2/3 — will
+      retry
+LTX 2.3 : 22B (LoRA) [I2V] — still failing
+      The LoRA you provided could not be processed. Please ensure it is a valid URL or a
+      HuggingFace repository.
+LTX 2.3 : 22B [Distilled] LoRA — still failing
+      The LoRA path you provided is not valid. Please ensure it is a URL or a
+      HuggingFace repository link. · attempt 2/3 — will retry
+LTX 2.3 : 22B (LoRA) [V2V] — still failing
+      The LoRA path "Transform the lighting to deep blue pre-dawn ambience" is invalid.
+      Please provide a valid URL or HuggingFace repository path.
+LTX 2.3 : 22B [Distilled] LoRA [V2V] — still failing
+      The LoRA path "Add bioluminescent glow to any water elements in the scene" is
+      invalid. Please provide a URL or a HuggingFace repository for the LoRA. · attempt
+      1/3 — will retry
+LTX 2.3 : 22B [Distilled] LoRA — still failing
+      The LoRA path is invalid. It must be a valid URL or a Hugging Face repository.
+LTX 2.3 : 22B [Distilled] LoRA [V2V] — still failing
+      The provided LoRA path is invalid. It must be a URL or a HuggingFace repository. ·
+      attempt 2/3 — will retry
+Pixelcut - Background Removal — still failing
+      Generation failed (reported by the account job queue) · attempt 1/3 — will retry
+Pixelcut - Background Removal — still failing
+      The selected format does not support transparent backgrounds. Try using a
+      different format, such as WebM, MOV, MKV, or GIF. · attempt 2/3 — will retry
+Pixelcut - Background Removal — still failing
+      The selected video format doesn't support transparency. Please choose a format
+      like WebM, ProRes, or GIF for transparent backgrounds.
+Reve v2.1 (Edit) — still failing
+      Server rejected generation: Failed to generateWe're experiencing a technical issue
+      on our end. Please try again in a moment.
+LTX 2.3 : 22B [Distilled] LoRA [I2V] — still failing
+      The LoRA you provided could not be found. Please ensure it's a valid URL or
+      HuggingFace repository. · attempt 2/3 — will retry
+LTX 2.3 : 22B [Distilled] LoRA [I2V] — still failing
+      We couldn't access the LoRA. Please ensure it's provided as a valid URL or a
+      HuggingFace repository.
+Hi3D — recovered on retry
+      There was an error during file processing: Input should be '512', '1024', '1536',
+      '1536pro', '1536fast' or '1536profast' · attempt 1/3 — will retry
+FLUX 3 (Extend Video) — recovered on retry
+      There was an error during file processing: Video duration exceeds the maximum
+      allowed. Maximum is 15.0 seconds. · attempt 1/3 — will retry
+Pixelcut - Product Photo — recovered on retry
+      Could not click Create button — every required field is filled and the site gave
+      no reason on the page · the form held — Image File:EMPTY; Image File:
+Sonilo v1.1(V2V Music) — recovered on retry
+      An unexpected error occurred. Please try again. · attempt 1/3 — will retry
+Sonilo v1.1(V2V Music) — recovered on retry
+      An unexpected error occurred. Please try again. · attempt 2/3 — will retry
+
+SLOWER THAN IT USED TO BE
+-------------------------
+LTX 2.3 : 22B (Extend)                     92s -> 285s (3.1 x its usual)
+
+MEDIA SOURCE CENSUS — every landing, reported by the code that landed it
+  platform: 80   local pool: 9   curated (never rolls): 35
+  split over rollable landings: 89% platform / 10% local  (rule: 75/25)
+  Bytedance - Seed Audio v1.0: rolled platform -> image=platform(dialog pick), image=platform(dialog pick), image=platform(dialog pick)
+  Recraft v4 (Style): rolled platform -> image=platform(dialog pick), image=platform(dialog pick), image=local(25% roll)
+    LEAK: rolled platform but the image landed from the local pool via 25% roll — this line is the bug report
+  Mirage - Avatar X: rolled platform -> video=platform(dialog pick), audio=curated(pool routing), video=platform(dialog pick), audio=curated(pool routing), video=platform(dialog pick), audio=curated(pool routing)
+  LTX 2.5 [Fast] [I2V]: rolled ? -> image=curated(frame pair), image=curated(frame pair)
+  Mirage - Avatar X (Reference): rolled platform -> image=curated(pool routing), video=platform(dialog pick), audio=curated(pool routing), image=curated(pool routing), video=platform(dialog pick), audio=curated(pool routing), image=curated(pool routing), video=platform(dialog pick), audio=curated(pool routing)
+  Minimax H3 (Reference : LoRA): rolled platform -> image=platform(dialog pick), video=platform(dialog pick), audio=platform(dialog pick), image=platform(dialog pick), image=platform(dialog pick)
+  Hi3D: rolled platform -> image=platform(dialog pick), image=platform(dialog pick)
+  Meshy v7: rolled platform -> image=platform(dialog pick), image=platform(dialog pick), image=platform(dialog pick)
+  Decart - Lucy 2.5 (Realtime): rolled platform -> image=platform(dialog pick), image=platform(dialog pick), image=platform(dialog pick), image=platform(url-mode), image=platform(dialog pick), image=platform(dialog pick)
+  FLUX.2 [klein] Realtime: rolled platform -> image=platform(url-mode), image=platform(dialog pick), image=platform(dialog pick)
+  OmniPart: rolled local -> image=local(25% roll), image=local(25% roll), image=local(25% roll)
+  Trellis v2 (LoRA): rolled local -> image=local(25% roll), image=local(25% roll), image=local(25% roll)
+  Veed - Subtitles: rolled ? -> video=curated(pool routing), video=curated(pool routing), video=curated(pool routing)
+  FLUX 3 (Extend Video): rolled platform -> video=platform(dialog pick), video=platform(dialog pick), video=platform(dialog pick), video=platform(dialog pick)
+  LTX 2.3 : 22B (Extend : LoRA): rolled platform -> image=platform(dialog pick), video=platform(dialog pick), image=platform(dialog pick), video=platform(dialog pick), image=platform(dialog pick), video=platform(dialog pick)
+  LTX 2.3 : 22B (Extend): rolled platform -> image=platform(dialog pick), video=platform(dialog pick), video=platform(dialog pick)
+  LTX 2.3 : 22B (LoRA) [I2V]: rolled local -> image=curated(pool routing), image=curated(pool routing), image=curated(pool routing), image=curated(pool routing), image=curated(pool routing), image=curated(pool routing)
+  LTX 2.3 : 22B (LoRA) [V2V]: rolled platform -> video=platform(dialog pick), video=platform(dialog pick), video=platform(dialog pick), video=platform(dialog pick)
+  LTX 2.3 : 22B [Distilled] LoRA [I2V]: rolled platform -> image=platform(dialog pick), image=platform(dialog pick), image=platform(dialog pick), image=platform(dialog pick), image=platform(url-mode), image=platform(dialog pick), image=platform(dialog pick), image=platform(dialog pick), image=platform(dialog pick), image=platform(dialog pick)
+  LTX 2.3 : 22B [Distilled] LoRA [V2V]: rolled platform -> video=platform(dialog pick), video=platform(label-aimed url), video=platform(dialog pick)
+  Microsoft - MAi image v2.5 [Pro] Edit: rolled platform -> image=platform(url-mode)
+  Pixelcut - Background Removal: rolled platform -> video=platform(dialog pick), video=platform(dialog pick), video=platform(populate url), video=platform(dialog pick), video=platform(dialog pick), video=platform(dialog pick)
+  Pixelcut - Product Photo: rolled ? -> image=curated(pool routing), image=curated(pool routing), image=curated(pool routing), image=curated(schema-net pool routing), image=curated(pool routing), image=curated(pool routing), image=curated(pool routing), image=curated(schema-net pool routing), image=curated(pool routing), image=curated(pool routing), image=curated(pool routing), image=curated(schema-net pool routing)
+  Reve v2.1 (Edit): rolled local -> image=local(25% roll), image=local(25% roll)
+  Reve v2.1 (Remix): rolled platform -> image=platform(dialog pick), image=platform(dialog pick), image=platform(url-mode), image=platform(dialog pick), image=platform(url-mode), image=platform(dialog pick)
+  Scail v2: rolled ? -> image=curated(pool routing), video=curated(pool routing)
+  Sonilo v1.1: rolled ? -> video=curated(pool routing)
+  Sonilo v1.1(V2V Music): rolled platform -> video=platform(dialog pick), video=platform(dialog pick), video=platform(dialog pick), video=platform(dialog pick), video=platform(populate url), video=platform(dialog pick)
+  Recraft v4 (Vector : Style): rolled platform -> image=platform(dialog pick)
+
+CLAUDE THIS RUN: asked 39 (self-heal, self-heal, self-heal, self-heal, self-heal, self-heal, self-heal, self-heal) — 39 answered via the claude command.
