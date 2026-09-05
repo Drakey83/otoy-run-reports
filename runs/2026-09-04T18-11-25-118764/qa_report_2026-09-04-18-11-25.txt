@@ -1,0 +1,241 @@
+﻿==============================================================================
+OTOY AUTOMATION — WHAT FAILED
+==============================================================================
+Environment:  dev
+Run started:  2026-09-04T18:11:25.118764
+Models tried: 37      Failed: 27
+  the app's: 11      the website's: 2      an account limit: 0      nothing decided: 14
+
+Where they are:
+  Video to Video         11
+  Text to Image          6
+  Image to 3D            3
+  Image to Video         3
+  Image to Image         2
+  Text to Audio          1
+  Text to Video          1
+
+==============================================================================
+THE APP'S FAULT — 11
+==============================================================================
+Nothing to send. This is the list to hand back to whoever maintains the app.
+
+  Trellis v2 (LoRA)   [Image to 3D]
+      There was an error during file processing: Provide at least one TRELLIS.2 LoRA
+      checkpoint URL for sparse structure, geometry, or texture.
+  LTX 2.3 : 22B (LoRA) [I2V]   [Image to Video]
+      The LoRA you provided could not be processed. Please ensure it is a valid URL or a
+      HuggingFace repository.
+  Bytedance - Seed Audio v1.0   [Text to Audio]
+      It looks like you've tried to combine image and audio references, but they can't
+      be used together. Please try using only image or only audio references.
+  Bria - Fibo Gen v1.5   [Text to Image]
+      The color scheme you entered isn't valid. Please ensure it's a recognized color
+      name or code.
+  Recraft v4 (Style)   [Text to Image]
+      Server rejected generation: Invalid form configurationValidation failed for field
+      "Image URLs" Validation failed for field "Image URLs" Validation failed for field
+      "Image URLs"
+  Recraft v4 (Vector : Style)   [Text to Image]
+      Server rejected generation: Invalid form configurationValidation failed for field
+      "Image URLs" Validation failed for field "Image URLs" Validation fai
+  Recraft v4 [Pro] (Style)   [Text to Image]
+      Server rejected generation: Invalid form configurationValidation failed for field
+      "Image URLs" Validation failed for field "Image URLs" Validation failed for field
+      "Image URLs"
+  Recraft v4 [Pro] Vector (Style)   [Text to Image]
+      Server rejected generation: Invalid form configurationValidation failed for field
+      "Image URLs" Validation failed for field "Image URLs" Validation failed for field
+      "Image URLs"
+  LTX 2.3 : 22B (LoRA)   [Video to Video]
+      The LoRA you provided could not be found. Please ensure it is a valid URL or
+      HuggingFace repository link.
+  LTX 2.3 : 22B (LoRA) [V2V]   [Video to Video]
+      The LoRA path "Transform the lighting to deep blue pre-dawn ambience" is invalid.
+      Please provide a valid URL or HuggingFace repository path.
+  Minimax H3 (Reference : LoRA)   [Video to Video]
+      We couldn't load the LoRA. Please provide a valid HTTP/HTTPS URL or a Hugging Face
+      owner/repo ID.
+
+==============================================================================
+THE WEBSITE'S FAULT — 2
+==============================================================================
+Written up one at a time below, with the reasoning for each.
+
+  OmniPart   [Image to 3D]
+      Something went wrong on our end. Please try again in a moment.
+  Veed - Subtitles   [Video to Video]
+      No matching job ever appeared in the account queue — but a generation request WAS
+      seen leaving the browser -2s in, so the site received it and queued nothing
+
+==============================================================================
+NOTHING DECIDED THESE — 14
+==============================================================================
+Here because no rule settled them, not as a guess. A message nothing recognises is the interesting kind.
+
+  Meshy v7   [Image to 3D]
+      Ultra mode is not available with the current model type. Please switch to a
+      standard generation model to use ultra mode.
+  Reve v2.1 (Edit)   [Image to Image]
+      Server rejected generation: Failed to generateWe're experiencing a technical issue
+      on our end. Please try again in a moment.
+  Reve v2.1 (Remix)   [Image to Image]
+      We're experiencing a technical issue on our end. Please try again in a moment.
+  LTX 2.3 : 22B [Distilled] LoRA [I2V]   [Image to Video]
+      We couldn't access the LoRA. Please ensure it's provided as a valid URL or a
+      HuggingFace repository.
+  Mirage - Avatar X (Reference)   [Image to Video]
+      Please ensure your request only includes the allowed inputs for
+      'body.end_user_id', 'body.environment', and 'body.prompt'. No extra information is
+      permitted.
+  Reve v2.1   [Text to Image]
+      We're experiencing a technical issue on our end. Please try again in a moment.
+  Mirage - Avatar X   [Text to Video]
+      Please ensure your request only includes the allowed inputs for
+      'body.end_user_id', 'body.environment', and 'body.prompt'. No extra information is
+      permitted.
+  Decart - Lucy 2.5 (Realtime)   [Video to Video]
+      We couldn't find the requested information or page. Please check the address and
+      try again.
+  FLUX 3 (Draft Enhance)   [Video to Video]
+      Generation failed (reported by the account job queue)
+  FLUX.2 [klein] Realtime   [Video to Video]
+      We couldn't find the requested information or page. Please check the address and
+      try again.
+  LTX 2.3 : 22B (Extend : LoRA)   [Video to Video]
+      The LoRA path provided is invalid. Please ensure it's a valid URL or a Hugging
+      Face repository.
+  LTX 2.3 : 22B [Distilled] LoRA   [Video to Video]
+      The LoRA path is invalid. It must be a valid URL or a Hugging Face repository.
+  LTX 2.3 : 22B [Distilled] LoRA [V2V]   [Video to Video]
+      There was an error during file processing: Failed to download the file. Please
+      check if the URL is accessible and try again.
+  Pixelcut - Background Removal   [Video to Video]
+      The selected video format doesn't support transparency. Please choose a format
+      like WebM, ProRes, or GIF for transparent backgrounds.
+
+==============================================================================
+THE WEBSITE'S BUGS, WRITTEN UP
+==============================================================================
+>>> THE SITE SAYS IT IS: Dev build {dev-ssm_v3.17.9} Sep 2, 2026
+>>> Read from the site's own footer during the run, and repeated at the bottom of
+>>> every ticket below. It is the first thing the web team asks for.
+
+2 distinct problem(s) across 2 model(s).
+
+##############################################################################
+WEBSITE BUG 1 of 2
+##############################################################################
+WHY THIS LOOKS LIKE THE WEBSITE'S:
+  the site refused in its own words, naming nothing about our request.
+  Every one failed in under ten seconds, so nothing was attempted and then refused —
+  it was refused before it started.
+
+------------------------------------------------------------------------------
+TITLE: OmniPart fails to generate — site returns "Something went wrong on our end"
+
+SUMMARY:
+  OmniPart failed to generate on dev.  Affected section: Image to 3D.
+  The site returned: "Something went wrong on our end. Please try again in a moment.".
+  Recorded in this run: failed after 6s.
+
+EXPECTED:
+  The model produces a generation.
+
+ACTUAL:
+  The generation fails and the site returns "Something went wrong on our end. Please try again in a moment."
+
+DEV BUILD NUMBER:
+  Dev build {dev-ssm_v3.17.9} Sep 2, 2026
+
+SCREEN RECORDING:
+  C:\Users\reidc\AppData\Local\Programs\OTOY Automation\test-results\bug_clips\clip_OmniPart.mp4
+  (the settings being filled in, then straight to the failure — the waiting is cut out)
+
+##############################################################################
+WEBSITE BUG 2 of 2
+##############################################################################
+WHY THIS LOOKS LIKE THE WEBSITE'S:
+  the app watched the generation request leave the browser and the site queued nothing — that is not something this end can fix.
+
+------------------------------------------------------------------------------
+TITLE: Veed - Subtitles fails to generate — no message was recorded from either side
+
+SUMMARY:
+  Veed - Subtitles failed to generate on dev.  Affected section: Video to Video.
+  No message was recorded from the site or from the app for this failure — only that it did not produce a generation.
+
+EXPECTED:
+  The model produces a generation.
+
+ACTUAL:
+  The generation fails. Nothing was recorded about why — neither the site nor the app left a message on this one.
+
+DEV BUILD NUMBER:
+  Dev build {dev-ssm_v3.17.9} Sep 2, 2026
+
+SCREEN RECORDING:
+  C:\Users\reidc\AppData\Local\Programs\OTOY Automation\test-results\bug_clips\clip_Veed---Subtitles.mp4
+  (the settings being filled in, then straight to the failure — the waiting is cut out)
+
+==============================================================================
+WHAT CLAUDE MADE OF IT — a suggestion, not a verdict
+==============================================================================
+Read this next to the lists above, not instead of them. Where the two
+disagree, the rules are the ones that were checked.
+
+PART 1 — VERDICTS
+
+Mirage - Avatar X [Text to Video] :: APP :: The request was rejected for carrying inputs outside the allowed set, and the app is what supplied those inputs.
+Mirage - Avatar X (Reference) [Image to Video] :: APP :: Same rejection for extra inputs beyond the allowed three, which the app supplied.
+Meshy v7 [Image to 3D] :: APP :: The app turned on ultra mode for a model type the site says does not support it.
+Decart - Lucy 2.5 (Realtime) [Video to Video] :: SITE :: Nothing about the supplied inputs was faulted; the site returned not-found for the requested page/resource.
+FLUX 3 (Draft Enhance) [Video to Video] :: STILL UNCLEAR :: "Generation failed" gives no reason at all, so it does not say whether an input or the site was at fault.
+FLUX.2 [klein] Realtime [Video to Video] :: SITE :: Same not-found response, with no input named as the problem.
+LTX 2.3 : 22B (Extend : LoRA) [Video to Video] :: APP :: The site rejected the LoRA path the app supplied as not a valid URL or Hugging Face repo.
+LTX 2.3 : 22B [Distilled] LoRA [Video to Video] :: APP :: Same rejection of the supplied LoRA path.
+LTX 2.3 : 22B [Distilled] LoRA [I2V] [Image to Video] :: APP :: Same rejection of the supplied LoRA, phrased as inaccessible/invalid.
+LTX 2.3 : 22B [Distilled] LoRA [V2V] [Video to Video] :: APP :: The failure is on downloading the URL the app supplied.
+Pixelcut - Background Removal [Video to Video] :: APP :: The app chose an output video format the site says cannot carry transparency.
+Reve v2.1 [Text to Image] :: SITE :: The site reports a technical issue on its own end.
+Reve v2.1 (Edit) [Image to Image] :: SITE :: The server rejected the generation and reported a technical issue on its own end.
+Reve v2.1 (Remix) [Image to Image] :: SITE :: The site reports a technical issue on its own end.
+
+PART 2 — GROUPED WRITE-UP
+
+Ticket 1 (three failures, one bug — the Edit variant's wording differs but carries the same server message)
+
+TITLE: Reve v2.1 generation fails with a server-side technical issue across Text to Image, Edit, and Remix
+SUMMARY: All three Reve v2.1 entries failed on dev with the site reporting a technical issue on its own end. Text to Image failed in 5s, Edit in 7s (prefixed "Server rejected generation: Failed to generate"), Remix in 5s. Same message across all three modes.
+EXPECTED: The generation request is accepted and completes.
+ACTUAL: "We're experiencing a technical issue on our end. Please try again in a moment."
+DEV BUILD NUMBER:
+
+Ticket 2 (two failures, one bug — identical message on two realtime video-to-video models)
+
+TITLE: Realtime Video to Video models return not-found: Decart - Lucy 2.5 (Realtime) and FLUX.2 [klein] Realtime
+TITLE-note: none
+SUMMARY: Both realtime Video to Video models failed on dev with a not-found response, each after 5s. The message names no input as the problem. The two share identical wording.
+EXPECTED: The requested page/resource is found and the generation proceeds.
+ACTUAL: "We couldn't find the requested information or page. Please check the address and try again."
+DEV BUILD NUMBER:
+
+Ticket 3
+
+TITLE: OmniPart [Image to 3D] fails with a server-side error
+SUMMARY: OmniPart Image to 3D failed on dev with the site reporting an error on its own end. It is not established whether this shares a cause with the Reve v2.1 failures, which carry different wording.
+EXPECTED: The generation request is accepted and completes.
+ACTUAL: "Something went wrong on our end. Please try again in a moment."
+DEV BUILD NUMBER:
+
+Ticket 4
+
+TITLE: Veed - Subtitles generation request is received but no job is queued
+SUMMARY: A generation request was observed leaving the browser 2s into the Veed - Subtitles Video to Video run, so the site received it. No matching job ever appeared in the account queue.
+EXPECTED: A job appears in the account queue for the received generation request.
+ACTUAL: No matching job ever appeared in the account queue.
+DEV BUILD NUMBER:
+
+==============================================================================
+Everything above the Claude section is written by the app from this run's
+own records — every line traces to something the run or the site reported.
